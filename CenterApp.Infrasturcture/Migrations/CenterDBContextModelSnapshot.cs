@@ -138,9 +138,8 @@ namespace CenterApp.Infrasturcture.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
-                    b.Property<string>("Student_BirthOfDate")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("Student_BirthOfDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Student_Email")
                         .IsRequired()
@@ -148,7 +147,6 @@ namespace CenterApp.Infrasturcture.Migrations
                         .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Student_Image")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Student_Name")
@@ -163,7 +161,7 @@ namespace CenterApp.Infrasturcture.Migrations
                     b.Property<DateTime>("Student_RegisterDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 8, 12, 6, 12, 14, 40, DateTimeKind.Local).AddTicks(9400));
+                        .HasDefaultValue(new DateTime(2022, 8, 13, 1, 29, 39, 464, DateTimeKind.Local).AddTicks(3386));
 
                     b.Property<string>("Student_StdPhone")
                         .IsRequired()
