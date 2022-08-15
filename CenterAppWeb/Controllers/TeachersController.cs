@@ -145,17 +145,9 @@ namespace CenterAppWeb.Controllers
         // GET: Teachers/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Teacher == null)
-            {
-                return NotFound();
-            }
-
-            var teacher = await _context.Teacher.FindAsync(id);
-            if (teacher == null)
-            {
-                return NotFound();
-            }
-            return View(teacher);
+            TeacherStageMatrialVM teacherStageMatrial = new TeacherStageMatrialVM();
+            teacherStageMatrial.Teacher = await _context.Teacher.FindAsync(id);
+            return View(teacherStageMatrial);
         }
 
         // POST: Teachers/Edit/5
@@ -163,23 +155,24 @@ namespace CenterAppWeb.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Teacher teacher)
+        public async Task<IActionResult> Edit(int id, TeacherStageMatrialVM teacherStageMatrial)
         {
-            if (id != teacher.Teacher_Id)
+            if (id != teacherStageMatrial.Teacher.Teacher_Id)
             {
                 return NotFound();
             }
-
+            // from Hossam Mahmoud
             if (ModelState.IsValid)
             {
                 try
                 {
-                    _context.Update(teacher);
+                    _context.Teacher.Update(teacherStageMatrial.Teacher);
                     await _context.SaveChangesAsync();
+                    ViewBag.Message = "Teacher Is updated SuccessFull .... ";
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!TeacherExists(teacher.Teacher_Id))
+                    if (!TeacherExists(teacherStageMatrial.Teacher.Teacher_Id))
                     {
                         return NotFound();
                     }
@@ -188,9 +181,10 @@ namespace CenterAppWeb.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return View(teacherStageMatrial);
             }
-            return View(teacher);
+            ViewBag.Message = "Error Please Add Teacher updates Again";
+            return View(teacherStageMatrial);
         }
 
         // GET: Teachers/Delete/5
