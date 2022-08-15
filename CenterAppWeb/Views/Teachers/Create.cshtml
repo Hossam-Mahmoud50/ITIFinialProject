@@ -32,6 +32,14 @@
                     <a class="nav-link" data-toggle="tab" href="#tab3" role="tab" aria-selected="false">Groups</a>
                 </li>
             </ul>
+            @if (ViewBag.Message is not null)
+            {
+                <div class="card">
+                <div class="card-body ">
+                    <p class="alert alert-success">@ViewBag.Message</p>
+                </div>
+                </div>
+            }
             <div class="tab-content">
                 <div class="tab-pane fade show active" id="tab1" role="tabpanel">
                     <form asp-action="Create" class="new-added-form" enctype="multipart/form-data">
@@ -68,7 +76,7 @@
                                 <input asp-for="Teacher.Teacher_Image" class="form-control" />
                                 <span asp-validation-for="Teacher.Teacher_Image" class="text-danger"></span>*@
                                 <label asp-for="file" class="text-dark-medium"></label>
-                                <input asp-for="file" type="file" class="form-control-file">
+                                <input asp-for="file" accept=".jpg,.png" type="file" class="form-control-file">
                                 <span asp-validation-for="file" class="text-danger"></span>
                             </div>
 

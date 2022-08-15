@@ -28,7 +28,7 @@ namespace CenterAppWeb.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {// edit in GitHub 
-            // welcome
+            // welcome gdfg
             TeacherSearchIndexVM teacherSearchIndexVM = new TeacherSearchIndexVM();
             teacherSearchIndexVM.Teachers = await _context.Teacher.ToListAsync();
             return View(teacherSearchIndexVM);
@@ -101,21 +101,28 @@ namespace CenterAppWeb.Controllers
                 string fileimage = String.Empty;
                 if (teacherStageMatrial.file != null)
                 {
+                    
                     string images = Path.Combine(_hosting.WebRootPath, "images");
-                    fileimage = teacherStageMatrial.file.FileName;
+                    fileimage =Guid.NewGuid().ToString() + "_"+ teacherStageMatrial.file.FileName;
                     string fullpathimage = Path.Combine(images, fileimage);
+                    //string extension = Path.GetExtension(fullpathimage);
+                    
                     using (var stream = new FileStream(fullpathimage, FileMode.Create))
                     {
-                        teacherStageMatrial.file.CopyTo(stream);
+                        teacherStageMatrial.file.CopyTo(stream);// save image in folder  images path
                     }
 
                     teacherStageMatrial.Teacher.Teacher_Image = fileimage;
+                    _context.Teacher.Add(teacherStageMatrial.Teacher);
+                    await _context.SaveChangesAsync();
+                    ViewBag.Message = "Teacher Is Added SuccessFull .... Please Add him to Subject ";
                 }
-
-                _context.Teacher.Add(teacherStageMatrial.Teacher);
-                await _context.SaveChangesAsync();
-                ViewBag.Message = "Teacher Is Added SuccessFull .... Please Add him to Subject ";
-                return View(teacherStageMatrial);
+                else
+                {
+                    ViewBag.Message = "Error !........................ ";
+                    return View(teacherStageMatrial);
+                }
+               
             }
             foreach (var item in ModelState.Values)
             {

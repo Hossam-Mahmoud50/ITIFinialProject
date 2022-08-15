@@ -25,7 +25,7 @@ namespace CenterAppWeb.Controllers
         //new
         [HttpGet]
         public async Task<IActionResult> Index()
-        {
+        { //dsdgfsdf
             StudentsSearchIndexVM studentsSearch = new StudentsSearchIndexVM();
             studentsSearch.Students = await _context.Students.Include(x => x.Stage).ToListAsync();
             return View(studentsSearch);
@@ -102,7 +102,7 @@ namespace CenterAppWeb.Controllers
                 if (studentstagematerialvm.File != null)
                 {
                     string images = Path.Combine(_hostEnvironment.WebRootPath, "images");
-                    fileimage = studentstagematerialvm.File.FileName;
+                    fileimage = Guid.NewGuid() .ToString() + "_"+studentstagematerialvm.File.FileName;
                     string fullpathimage = Path.Combine(images, fileimage);
                     using (var stream = new FileStream(fullpathimage, FileMode.Create))
                     {
