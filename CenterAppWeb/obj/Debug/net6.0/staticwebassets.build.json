@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Uuvic0R52O2VtB3U2wkF33esSiPaDQEWAqvO+RahEAA=",
+  "Hash": "lhk5Aogr80lvSw+6AoOPHoAbfp+WTBENv0OmdAOjNuk=",
   "Source": "CenterAppWeb",
   "BasePath": "_content/CenterAppWeb",
   "Mode": "Default",
@@ -610,6 +610,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\sort_desc_disabled.html"
+    },
+    {
+      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\student1.jpg",
+      "SourceId": "CenterAppWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "BasePath": "_content/CenterAppWeb",
+      "RelativePath": "images/student1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\student1.jpg"
     },
     {
       "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\favicon.png",
