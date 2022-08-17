@@ -28,9 +28,9 @@ namespace CenterAppWeb.Controllers
         // GET: Teachers
         [HttpGet]
         public async Task<IActionResult> Index()
-        {// edit in GitHub 
-            // welcome gdfg
-            TeacherSearchIndexVM teacherSearchIndexVM = new TeacherSearchIndexVM();
+
+        {
+                      TeacherSearchIndexVM teacherSearchIndexVM = new TeacherSearchIndexVM();
             teacherSearchIndexVM.Teachers = await _context.Teacher.ToListAsync();
             return View(teacherSearchIndexVM);
         }
