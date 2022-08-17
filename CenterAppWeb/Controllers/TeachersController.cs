@@ -9,6 +9,7 @@ using CenterApp.Core.Models;
 using CenterApp.Infrasturcture.Data;
 using CenterAppWeb.ViewModel;
 using System.IO;
+using Newtonsoft.Json;
 
 namespace CenterAppWeb.Controllers
 {
@@ -27,8 +28,9 @@ namespace CenterAppWeb.Controllers
         // GET: Teachers
         [HttpGet]
         public async Task<IActionResult> Index()
-        { // edit in githib
-            TeacherSearchIndexVM teacherSearchIndexVM = new TeacherSearchIndexVM();
+
+        {
+                      TeacherSearchIndexVM teacherSearchIndexVM = new TeacherSearchIndexVM();
             teacherSearchIndexVM.Teachers = await _context.Teacher.ToListAsync();
             return View(teacherSearchIndexVM);
         }
@@ -100,21 +102,28 @@ namespace CenterAppWeb.Controllers
                 string fileimage = String.Empty;
                 if (teacherStageMatrial.file != null)
                 {
+
                     string images = Path.Combine(_hosting.WebRootPath, "images");
-                    fileimage = teacherStageMatrial.file.FileName;
+                    fileimage = Guid.NewGuid().ToString() + "_" + teacherStageMatrial.file.FileName;
                     string fullpathimage = Path.Combine(images, fileimage);
+                    //string extension = Path.GetExtension(fullpathimage);
+
                     using (var stream = new FileStream(fullpathimage, FileMode.Create))
                     {
-                        teacherStageMatrial.file.CopyTo(stream);
+                        teacherStageMatrial.file.CopyTo(stream);// save image in folder  images path
                     }
 
                     teacherStageMatrial.Teacher.Teacher_Image = fileimage;
+                    _context.Teacher.Add(teacherStageMatrial.Teacher);
+                    await _context.SaveChangesAsync();
+                    ViewBag.Message = "Teacher Is Added SuccessFull .... Please Add him to Subject ";
+                }
+                else
+                {
+                    ViewBag.Message = "Error !........................ ";
+                    return View(teacherStageMatrial);
                 }
 
-                _context.Teacher.Add(teacherStageMatrial.Teacher);
-                await _context.SaveChangesAsync();
-                ViewBag.Message = "Teacher Is Added SuccessFull .... Please Add him to Subject ";
-                return View(teacherStageMatrial);
             }
             foreach (var item in ModelState.Values)
             {
@@ -229,6 +238,17 @@ namespace CenterAppWeb.Controllers
         private bool TeacherExists(int id)
         {
             return (_context.Teacher?.Any(e => e.Teacher_Id == id)).GetValueOrDefault();
+        }
+
+        public JsonResult GetStagesData(int LevelId)
+        {
+            var data = _context.Stages.Where(x => x.Level_Id == LevelId).ToList();
+            return Json(data);
+        }
+        public JsonResult GetMatrialData(int LevelId)
+        {
+            var data = _context.LevelMatrial.Include(x => x.Matrial).Where(x => x.Level_Id == LevelId).Select(x => new {x.Matrial_Id,x.Matrial.Matrial_Name }).ToList();
+            return Json(data);
         }
     }
 }

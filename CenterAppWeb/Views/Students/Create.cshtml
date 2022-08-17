@@ -41,6 +41,7 @@
                     }
                     <div class="row" id="tab1">
                         <form asp-action="Create" asp-controller="Students" method="post" class="new-added-form" enctype="multipart/form-data">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                             <div class="row" id="tab1">
                                 <div class="col-xl-3 col-lg-6 col-12 form-group">
                                     <label asp-for="Student.Student_Name">Student Name *</label>
@@ -55,7 +56,7 @@
 
                                 <div class="col-xl-3 col-lg-6 col-12 form-group">
                                     <label asp-for="Student.Student_BirthOfDate" class="control-label">BirthOfDate *</label>
-                                    <input asp-for="Student.Student_BirthOfDate" class="form-control" />
+                                    <input asp-for="Student.Student_BirthOfDate" class="form-control"/>
 
                                     <span asp-validation-for="Student.Student_BirthOfDate" class="text-danger"></span>
 
@@ -63,7 +64,7 @@
 
                                 <div class="col-xl-3 col-lg-6 col-12 form-group form-select">
                                     <label asp-for="Student.Gender">Gender *</label>
-                                    <select asp-for="Student.Gender" class="form-select form-control" aria-label="Default select example" style="padding: 10px; background:#edf2ff; border:none;">
+                                    <select asp-for="Student.Gender" class="form-select form-control" aria-label="Default select example" style="padding: 10px; background: #edf2ff; border: none;">
                                         <option selected>Please Select Gender *</option>
                                         <option value="true">Male</option>
                                         <option value="false">Female</option>
@@ -73,10 +74,10 @@
 
                                 </div>
 
-                               
+
                                 <div class="col-xl-3 col-lg-6 col-12 form-group">
                                     <label asp-for="Student.Student_RegisterDate" class="control-label"></label>
-                                    <input asp-for="Student.Student_RegisterDate" class="form-control" />
+                                    <input asp-for="Student.Student_RegisterDate" class="form-control"/>
 
                                     <span asp-validation-for="Student.Student_RegisterDate" class="text-danger"></span>
 
@@ -104,10 +105,10 @@
                                     <select asp-for="Student.Stage_id" class="form-control" asp-items="ViewBag.Stage_id"></select>
 
                                 </div>
-                               
+
                                 <div class="col-lg-6 col-12 form-group mg-t-30">
                                     <label value="image" class="text-dark-medium">Upload Student Photo (150px X 150px)</label>
-                                    <input  type="file"  class="form-control-file">
+                                    <input type="file" asp-for="File" class="form-control-file">
                                 </div>
                                 <div class="col-12 form-group mg-t-8">
                                     <button type="submit" value="Create" class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark">Save</button>
@@ -116,7 +117,7 @@
                             </div>
 
                             <div>
-                                <br />
+                                <br/>
 
                                 <a asp-action="Index">Back to List</a>
                             </div>

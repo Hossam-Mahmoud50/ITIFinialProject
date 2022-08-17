@@ -25,7 +25,7 @@ namespace CenterAppWeb.Controllers
         //new
         [HttpGet]
         public async Task<IActionResult> Index()
-        {
+        { //dsdgfsdf
             StudentsSearchIndexVM studentsSearch = new StudentsSearchIndexVM();
             studentsSearch.Students = await _context.Students.Include(x => x.Stage).ToListAsync();
             return View(studentsSearch);
@@ -49,15 +49,6 @@ namespace CenterAppWeb.Controllers
             return View(studentsSearch);
         }
 
-
-        public IActionResult Details()
-        {
-            // ViewData["Stage_id"] = new SelectList(_context.Stages, "Stage_Id", "Stage_Name");
-            //ViewData["Level_id"] = new SelectList(_context.Stages, "Level_Id", "Level_Name");
-            return View();
-        }
-
-        [HttpPost]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Students == null)
@@ -102,7 +93,7 @@ namespace CenterAppWeb.Controllers
                 if (studentstagematerialvm.File != null)
                 {
                     string images = Path.Combine(_hostEnvironment.WebRootPath, "images");
-                    fileimage = studentstagematerialvm.File.FileName;
+                    fileimage = Guid.NewGuid() .ToString() + "_"+studentstagematerialvm.File.FileName;
                     string fullpathimage = Path.Combine(images, fileimage);
                     using (var stream = new FileStream(fullpathimage, FileMode.Create))
                     {
