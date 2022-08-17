@@ -49,15 +49,6 @@ namespace CenterAppWeb.Controllers
             return View(studentsSearch);
         }
 
-
-        public IActionResult Details()
-        {
-            // ViewData["Stage_id"] = new SelectList(_context.Stages, "Stage_Id", "Stage_Name");
-            //ViewData["Level_id"] = new SelectList(_context.Stages, "Level_Id", "Level_Name");
-            return View();
-        }
-
-        [HttpPost]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Students == null)

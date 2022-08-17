@@ -92,23 +92,7 @@
                 <div class="tab-pane fade" id="tab2" role="tabpanel">
                     <form asp-action="CreateMatrial" asp-controller="Teachers" method="Post">
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                        <div class="form-group">
-                            <label asp-for="Level_Id" class="control-label"></label>
-                            <select asp-for="Level_Id" class="form-control" asp-items="ViewBag.Level_Id"></select>
-                        </div>
-                        <div class="form-group">
-                            <label asp-for="Stage_Id" class="control-label"></label>
-                            <select asp-for="Stage_Id" class="form-control" asp-items="ViewBag.Stage_Id"></select>
-                        </div>
-                        <div class="form-group">
-                            <label asp-for="Matrial_Id" class="control-label"></label>
-                            <select asp-for="Matrial_Id" class="form-control" asp-items="ViewBag.Matrial_Id"></select>
-                        </div>
-                        <input type="hidden" asp-for="Teacher.Teacher_Id" />
-
-                        <div class="form-group">
-                            <input type="submit" value="Create" class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark" />
-                        </div>
+                        <partial model="@Model" name="_CreateMartialTeacher"/>
                     </form>
                 </div>
                 <div class="tab-pane fade" id="tab3" role="tabpanel">
@@ -123,42 +107,86 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
-
-@section Scripts {
-    <script type="text/javascript">
-        $(document).ready(function () {
-            getSubCategoryListByCategoryId();
-        })
-        $("#Level_Id").change(function () {
-            getSubCategoryListByCategoryId();
-        });
-        var getSubCategoryListByCategoryId = function () {
-            $.ajax({
-                url: '@Url.Action("GetSubCategoryByCategoryId","Home")',
-                type: 'GET',
-                data: {
-                    categoryId: $('#Level_Id').val(),
-                },
-                success: function (data) {
-                    $('#Stage_Id').find('option').remove()
-                    $(data).each({
-                        function(index, item) {
-                            $('#Stage_Id').append('
-                                < option value = "' + item.StageList);
-                $('#Material_Id').find('option').remove();
-                            $(data).each(
-                                function (index, item) {
-                                    $('#Material_Id').append('
-                                        < option value = "' + item.MatrialList);
+@section Scripts
+{
+    <script>
+        $(function() {
+            $("#Level_Id").change(function() {
+                $.ajax({
+                    url: '@Url.Action("GetStagesData", "Teachers")',
+                    type: "GET",
+                    data: {
+                        LevelId: $(this).val()
+                    },
+                    success: function(data) {
+                        $('#Stage_Id').find('option').remove();
+                        $('#Stage_Id').append('<option value="0">"Select Stage"</option>');
+                        $(data).each(function(index, item) {
+                            $('#Stage_Id').append(`<option value="${item.stage_Id}">"${item.stage_Name}"</option>`);
+                        });
+                    },
+                    error: function(err) {
+                        console.log(err);
+                    }
                 });
-                        },
-                        error: function () {
-                        }
-                    });
-                }
+                $.ajax({
+                    url: '@Url.Action("GetMatrialData", "Teachers")',
+                    type: "GET",
+                    data: {
+                        LevelId: $(this).val()
+                    },
+                    success: function(data) {
+                        $('#Matrial_Id').find('option').remove();
+                        $('#Matrial_Id').append('<option value="0">"Select Matrial"</option>');
+                        $(data).each(function(index, item) {
+                            $('#Matrial_Id').append(`<option value="${item.matrial_Id}">"${item.matrial_Name}"</option>`);
+                        });
+                    },
+                    error: function(err) {
+                        console.log(err);
+                    }
+                });
+            });
+            
+        });
     </script>
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-
-    }
+}
+@* *@
+@* @section Scripts { *@
+@*     <script type="text/javascript"> *@
+@*         $(document).ready(function () { *@
+@*             getSubCategoryListByCategoryId(); *@
+@*         }) *@
+@*         $("#Level_Id").change(function () { *@
+@*             getSubCategoryListByCategoryId(); *@
+@*         }); *@
+@*         var getSubCategoryListByCategoryId = function () { *@
+@*             $.ajax({ *@
+@*                 url: '@Url.Action("GetSubCategoryByCategoryId","Home")', *@
+@*                 type: 'GET', *@
+@*                 data: { *@
+@*                     categoryId: $('#Level_Id').val(), *@
+@*                 }, *@
+@*                 success: function (data) { *@
+@*                     $('#Stage_Id').find('option').remove() *@
+@*                     $(data).each({ *@
+@*                         function(index, item) { *@
+@*                             $('#Stage_Id').append(' *@
+@*                                 < option value = "' + item.StageList); *@
+@*                 $('#Material_Id').find('option').remove(); *@
+@*                             $(data).each( *@
+@*                                 function (index, item) { *@
+@*                                     $('#Material_Id').append(' *@
+@*                                         < option value = "' + item.MatrialList); *@
+@*                 }); *@
+@*                         }, *@
+@*                         error: function () { *@
+@*                         } *@
+@*                     }); *@
+@*                 } *@
+@*     </script> *@
+@*     @{ *@
+@*         await Html.RenderPartialAsync("_ValidationScriptsPartial"); *@
+@*     } *@
+@* *@
+@*     } *@

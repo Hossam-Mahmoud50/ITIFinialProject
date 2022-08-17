@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KxGLEo+qCmOeQ0ly8QWB7kwHQaePFUON3j3WWOkgEMY=",
+  "Hash": "Uuvic0R52O2VtB3U2wkF33esSiPaDQEWAqvO+RahEAA=",
   "Source": "CenterAppWeb",
   "BasePath": "_content/CenterAppWeb",
   "Mode": "Default",
@@ -406,6 +406,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\37296570_1816007828507392_6605873908446920704_n.jpg"
+    },
+    {
+      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\40125a65-b427-4247-876e-def42f7720e4_ش_ش.jpg",
+      "SourceId": "CenterAppWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "BasePath": "_content/CenterAppWeb",
+      "RelativePath": "images/40125a65-b427-4247-876e-def42f7720e4_ش_ش.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\40125a65-b427-4247-876e-def42f7720e4_ش_ش.jpg"
+    },
+    {
+      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\4ba50cb4-b7f9-493f-ac20-bfd02849ba88_HM.jpg",
+      "SourceId": "CenterAppWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "BasePath": "_content/CenterAppWeb",
+      "RelativePath": "images/4ba50cb4-b7f9-493f-ac20-bfd02849ba88_HM.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4ba50cb4-b7f9-493f-ac20-bfd02849ba88_HM.jpg"
     },
     {
       "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\8234b2b8-2dec-4295-ba99-bc10f1501869_O.jpg",
