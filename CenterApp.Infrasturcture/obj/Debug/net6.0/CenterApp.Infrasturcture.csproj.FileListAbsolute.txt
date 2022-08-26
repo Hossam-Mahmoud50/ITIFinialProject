@@ -32,3 +32,20 @@ D:\ITI Projects\Project\ITIFinialProject\CenterApp.Infrasturcture\obj\Debug\net6
 D:\ITI Projects\Project\ITIFinialProject\CenterApp.Infrasturcture\obj\Debug\net6.0\CenterApp.Infrasturcture.pdb
 D:\ITI Projects\Project\ITIFinialProject\CenterApp.Infrasturcture\obj\Debug\net6.0\CenterApp.Infrasturcture.genruntimeconfig.cache
 D:\ITI Projects\Project\ITIFinialProject\CenterApp.Infrasturcture\obj\Debug\net6.0\ref\CenterApp.Infrasturcture.dll
+D:\GradutionProjectitiCleanUp\ITIFinialProject\CenterApp.Infrasturcture\bin\Debug\net6.0\CenterApp.Infrasturcture.deps.json
+D:\GradutionProjectitiCleanUp\ITIFinialProject\CenterApp.Infrasturcture\bin\Debug\net6.0\CenterApp.Infrasturcture.runtimeconfig.json
+D:\GradutionProjectitiCleanUp\ITIFinialProject\CenterApp.Infrasturcture\bin\Debug\net6.0\CenterApp.Infrasturcture.dll
+D:\GradutionProjectitiCleanUp\ITIFinialProject\CenterApp.Infrasturcture\bin\Debug\net6.0\CenterApp.Infrasturcture.pdb
+D:\GradutionProjectitiCleanUp\ITIFinialProject\CenterApp.Infrasturcture\bin\Debug\net6.0\CenterApp.Core.dll
+D:\GradutionProjectitiCleanUp\ITIFinialProject\CenterApp.Infrasturcture\bin\Debug\net6.0\CenterApp.Core.pdb
+D:\GradutionProjectitiCleanUp\ITIFinialProject\CenterApp.Infrasturcture\obj\Debug\net6.0\CenterApp.Infrasturcture.csproj.AssemblyReference.cache
+D:\GradutionProjectitiCleanUp\ITIFinialProject\CenterApp.Infrasturcture\obj\Debug\net6.0\CenterApp.Infrasturcture.GeneratedMSBuildEditorConfig.editorconfig
+D:\GradutionProjectitiCleanUp\ITIFinialProject\CenterApp.Infrasturcture\obj\Debug\net6.0\CenterApp.Infrasturcture.AssemblyInfoInputs.cache
+D:\GradutionProjectitiCleanUp\ITIFinialProject\CenterApp.Infrasturcture\obj\Debug\net6.0\CenterApp.Infrasturcture.AssemblyInfo.cs
+D:\GradutionProjectitiCleanUp\ITIFinialProject\CenterApp.Infrasturcture\obj\Debug\net6.0\CenterApp.Infrasturcture.csproj.CoreCompileInputs.cache
+D:\GradutionProjectitiCleanUp\ITIFinialProject\CenterApp.Infrasturcture\obj\Debug\net6.0\CenterApp.Infrasturcture.csproj.CopyComplete
+D:\GradutionProjectitiCleanUp\ITIFinialProject\CenterApp.Infrasturcture\obj\Debug\net6.0\CenterApp.Infrasturcture.dll
+D:\GradutionProjectitiCleanUp\ITIFinialProject\CenterApp.Infrasturcture\obj\Debug\net6.0\refint\CenterApp.Infrasturcture.dll
+D:\GradutionProjectitiCleanUp\ITIFinialProject\CenterApp.Infrasturcture\obj\Debug\net6.0\CenterApp.Infrasturcture.pdb
+D:\GradutionProjectitiCleanUp\ITIFinialProject\CenterApp.Infrasturcture\obj\Debug\net6.0\CenterApp.Infrasturcture.genruntimeconfig.cache
+D:\GradutionProjectitiCleanUp\ITIFinialProject\CenterApp.Infrasturcture\obj\Debug\net6.0\ref\CenterApp.Infrasturcture.dll

@@ -71,7 +71,12 @@ public class CenterDBContext : DbContext
         modelBuilder.Entity<StudentPayments>().HasKey(d => d.Id);
         modelBuilder.Entity<StudentPayments>().HasOne(s => s.Student).WithMany(d => d.StudentPayments).HasForeignKey(d => d.Student_Id);
         modelBuilder.Entity<StudentPayments>().HasOne(s => s.Matrial).WithMany(d => d.StudentPayments).HasForeignKey(d => d.Matrial_Id);
-
+        modelBuilder.Entity<Stuff>().HasKey(x => x.Stuff_Id);
+        modelBuilder.Entity<Stuff>().Property(x => x.Stuff_Email).IsRequired();
+        modelBuilder.Entity<Stuff>().Property(x => x.Stuff_Name).IsRequired();
+        modelBuilder.Entity<Stuff>().Property(x => x.Stuff_Image).IsRequired();
+        modelBuilder.Entity<Stuff>().Property(x => x.Stuff_Phone).IsRequired();
+        modelBuilder.Entity<Stuff>().Property(x => x.Stuff_BirthOfDate).IsRequired();
     }
 
     public DbSet<Level> Levels { get; set; }
@@ -84,4 +89,5 @@ public class CenterDBContext : DbContext
     public DbSet<Student> Students { get; set; }
     public DbSet<StudentGroup> StudentGroup { get; set; }
     public DbSet<StudentPayments> StudentPayments { get; set; }
+    public DbSet<Stuff> Stuff { get; set; }
 }

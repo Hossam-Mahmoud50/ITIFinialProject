@@ -161,7 +161,7 @@ namespace CenterApp.Infrasturcture.Migrations
                     b.Property<DateTime>("Student_RegisterDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 8, 13, 1, 29, 39, 464, DateTimeKind.Local).AddTicks(3386));
+                        .HasDefaultValue(new DateTime(2022, 8, 23, 16, 45, 51, 760, DateTimeKind.Local).AddTicks(5856));
 
                     b.Property<string>("Student_StdPhone")
                         .IsRequired()
@@ -219,6 +219,42 @@ namespace CenterApp.Infrasturcture.Migrations
                     b.HasIndex("Student_Id");
 
                     b.ToTable("StudentPayments");
+                });
+
+            modelBuilder.Entity("CenterApp.Core.Models.Stuff", b =>
+                {
+                    b.Property<int>("Stuff_Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Stuff_Id"), 1L, 1);
+
+                    b.Property<DateTime>("Stuff_BirthOfDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Stuff_Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Stuff_Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Stuff_Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Stuff_Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Stuff_Specilist")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Stuff_Id");
+
+                    b.ToTable("Stuff");
                 });
 
             modelBuilder.Entity("CenterApp.Core.Models.Teacher", b =>

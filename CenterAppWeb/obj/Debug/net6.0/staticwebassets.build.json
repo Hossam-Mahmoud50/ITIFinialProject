@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Uuvic0R52O2VtB3U2wkF33esSiPaDQEWAqvO+RahEAA=",
+  "Hash": "hp01OH3r8Y0/uecSRwbh43aVYYX6JMKdjES9+0Ksrzs=",
   "Source": "CenterAppWeb",
   "BasePath": "_content/CenterAppWeb",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CenterAppWeb\\wwwroot",
       "Source": "CenterAppWeb",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CenterAppWeb.styles.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CenterAppWeb.styles.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "CenterAppWeb.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CenterAppWeb.styles.css"
+      "OriginalItemSpec": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CenterAppWeb.styles.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CenterAppWeb.bundle.scp.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CenterAppWeb.bundle.scp.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "CenterAppWeb.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CenterAppWeb.bundle.scp.css"
+      "OriginalItemSpec": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CenterAppWeb.bundle.scp.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\all.min.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\all.min.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "css/all.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\all.min.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\animate.min.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\animate.min.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "css/animate.min.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\animate.min.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\datepicker.min.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\datepicker.min.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "css/datepicker.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\datepicker.min.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\fullcalendar.min.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\fullcalendar.min.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "css/fullcalendar.min.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fullcalendar.min.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\jquery.dataTables.min.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\jquery.dataTables.min.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "css/jquery.dataTables.min.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\jquery.dataTables.min.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\main.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\main.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "css/main.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\main.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\normalize.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\normalize.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "css/normalize.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\normalize.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\select2.min.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\select2.min.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "css/select2.min.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\select2.min.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\site.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\site.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\style.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\style.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\summernote-bs4.html",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\css\\summernote-bs4.html",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "css/summernote-bs4.html",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\summernote-bs4.html"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\favicon.ico",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\favicon.ico",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\fonts\\flaticon.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\fonts\\flaticon.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "fonts/flaticon.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\flaticon.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\fonts\\Flaticon.eot",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\fonts\\Flaticon.eot",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "fonts/Flaticon.eot",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Flaticon.eot"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\fonts\\Flaticon.html",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\fonts\\Flaticon.html",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "fonts/Flaticon.html",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Flaticon.html"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\fonts\\Flaticon.svg",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\fonts\\Flaticon.svg",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "fonts/Flaticon.svg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Flaticon.svg"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\fonts\\Flaticon.ttf",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\fonts\\Flaticon.ttf",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "fonts/Flaticon.ttf",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Flaticon.ttf"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\fonts\\Flaticon.woff",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\fonts\\Flaticon.woff",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "fonts/Flaticon.woff",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Flaticon.woff"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\fonts\\Flaticond41d.eot",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\fonts\\Flaticond41d.eot",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "fonts/Flaticond41d.eot",
       "AssetKind": "All",
@@ -391,10 +391,27 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Flaticond41d.eot"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\37296570_1816007828507392_6605873908446920704_n.jpg",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\177cacca-c7fe-4e7c-a4d1-4008ca89bae2_101595885_163191198553876_9177743103165988864_o.jpg",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "BasePath": "_content/CenterAppWeb",
+      "RelativePath": "images/177cacca-c7fe-4e7c-a4d1-4008ca89bae2_101595885_163191198553876_9177743103165988864_o.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\177cacca-c7fe-4e7c-a4d1-4008ca89bae2_101595885_163191198553876_9177743103165988864_o.jpg"
+    },
+    {
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\37296570_1816007828507392_6605873908446920704_n.jpg",
+      "SourceId": "CenterAppWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "images/37296570_1816007828507392_6605873908446920704_n.jpg",
       "AssetKind": "All",
@@ -408,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\images\\37296570_1816007828507392_6605873908446920704_n.jpg"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\40125a65-b427-4247-876e-def42f7720e4_ش_ش.jpg",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\40125a65-b427-4247-876e-def42f7720e4_ش_ش.jpg",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "images/40125a65-b427-4247-876e-def42f7720e4_ش_ش.jpg",
       "AssetKind": "All",
@@ -425,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\40125a65-b427-4247-876e-def42f7720e4_ش_ش.jpg"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\4ba50cb4-b7f9-493f-ac20-bfd02849ba88_HM.jpg",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\4ba50cb4-b7f9-493f-ac20-bfd02849ba88_HM.jpg",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "images/4ba50cb4-b7f9-493f-ac20-bfd02849ba88_HM.jpg",
       "AssetKind": "All",
@@ -442,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4ba50cb4-b7f9-493f-ac20-bfd02849ba88_HM.jpg"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\8234b2b8-2dec-4295-ba99-bc10f1501869_O.jpg",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\8234b2b8-2dec-4295-ba99-bc10f1501869_O.jpg",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "images/8234b2b8-2dec-4295-ba99-bc10f1501869_O.jpg",
       "AssetKind": "All",
@@ -459,10 +476,27 @@
       "OriginalItemSpec": "wwwroot\\images\\8234b2b8-2dec-4295-ba99-bc10f1501869_O.jpg"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\d1525878-19a3-452f-9ea6-255041d8d7ce_HM.jpg",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\bd2b62e5-20f6-4053-8fdd-c9f68399a354_101828224_544634146421962_4644566372490149888_n.jpg",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "BasePath": "_content/CenterAppWeb",
+      "RelativePath": "images/bd2b62e5-20f6-4053-8fdd-c9f68399a354_101828224_544634146421962_4644566372490149888_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bd2b62e5-20f6-4053-8fdd-c9f68399a354_101828224_544634146421962_4644566372490149888_n.jpg"
+    },
+    {
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\d1525878-19a3-452f-9ea6-255041d8d7ce_HM.jpg",
+      "SourceId": "CenterAppWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "images/d1525878-19a3-452f-9ea6-255041d8d7ce_HM.jpg",
       "AssetKind": "All",
@@ -476,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\images\\d1525878-19a3-452f-9ea6-255041d8d7ce_HM.jpg"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\HM.jpg",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\HM.jpg",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "images/HM.jpg",
       "AssetKind": "All",
@@ -493,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\images\\HM.jpg"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\Hossam.jpeg",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\Hossam.jpeg",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "images/Hossam.jpeg",
       "AssetKind": "All",
@@ -510,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Hossam.jpeg"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\O.jpg",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\O.jpg",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "images/O.jpg",
       "AssetKind": "All",
@@ -527,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\images\\O.jpg"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\sort_asc.html",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\sort_asc.html",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "images/sort_asc.html",
       "AssetKind": "All",
@@ -544,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sort_asc.html"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\sort_asc_disabled.html",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\sort_asc_disabled.html",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "images/sort_asc_disabled.html",
       "AssetKind": "All",
@@ -561,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sort_asc_disabled.html"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\sort_both.html",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\sort_both.html",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "images/sort_both.html",
       "AssetKind": "All",
@@ -578,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sort_both.html"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\sort_desc.html",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\sort_desc.html",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "images/sort_desc.html",
       "AssetKind": "All",
@@ -595,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sort_desc.html"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\sort_desc_disabled.html",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\images\\sort_desc_disabled.html",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "images/sort_desc_disabled.html",
       "AssetKind": "All",
@@ -612,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sort_desc_disabled.html"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\favicon.png",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\favicon.png",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/favicon.png",
       "AssetKind": "All",
@@ -629,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\img\\favicon.png"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\admin.jpg",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\admin.jpg",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/admin.jpg",
       "AssetKind": "All",
@@ -646,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\admin.jpg"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\parents.jpg",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\parents.jpg",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/parents.jpg",
       "AssetKind": "All",
@@ -663,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\parents.jpg"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student.png",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student.png",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/student.png",
       "AssetKind": "All",
@@ -680,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\student.png"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student1.jpg",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student1.jpg",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/student1.jpg",
       "AssetKind": "All",
@@ -697,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\student1.jpg"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student1.png",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student1.png",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/student1.png",
       "AssetKind": "All",
@@ -714,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\student1.png"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student10.png",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student10.png",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/student10.png",
       "AssetKind": "All",
@@ -731,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\student10.png"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student11.png",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student11.png",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/student11.png",
       "AssetKind": "All",
@@ -748,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\student11.png"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student12.png",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student12.png",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/student12.png",
       "AssetKind": "All",
@@ -765,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\student12.png"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student13.png",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student13.png",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/student13.png",
       "AssetKind": "All",
@@ -782,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\student13.png"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student2.png",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student2.png",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/student2.png",
       "AssetKind": "All",
@@ -799,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\student2.png"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student3.png",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student3.png",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/student3.png",
       "AssetKind": "All",
@@ -816,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\student3.png"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student4.png",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student4.png",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/student4.png",
       "AssetKind": "All",
@@ -833,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\student4.png"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student5.png",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student5.png",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/student5.png",
       "AssetKind": "All",
@@ -850,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\student5.png"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student6.png",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student6.png",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/student6.png",
       "AssetKind": "All",
@@ -867,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\student6.png"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student7.png",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student7.png",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/student7.png",
       "AssetKind": "All",
@@ -884,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\student7.png"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student8.png",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student8.png",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/student8.png",
       "AssetKind": "All",
@@ -901,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\student8.png"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student9.png",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\student9.png",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/student9.png",
       "AssetKind": "All",
@@ -918,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\student9.png"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\teacher.jpg",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\teacher.jpg",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/teacher.jpg",
       "AssetKind": "All",
@@ -935,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\teacher.jpg"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\user.jpg",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\user.jpg",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/user.jpg",
       "AssetKind": "All",
@@ -952,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\user.jpg"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\user1.jpg",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\user1.jpg",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/user1.jpg",
       "AssetKind": "All",
@@ -969,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\user1.jpg"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\user2.jpg",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\user2.jpg",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/user2.jpg",
       "AssetKind": "All",
@@ -986,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\user2.jpg"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\user3.jpg",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\user3.jpg",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/user3.jpg",
       "AssetKind": "All",
@@ -1003,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\user3.jpg"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\user4.jpg",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\user4.jpg",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/user4.jpg",
       "AssetKind": "All",
@@ -1020,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\user4.jpg"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\user5.jpg",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\figure\\user5.jpg",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/figure/user5.jpg",
       "AssetKind": "All",
@@ -1037,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\img\\figure\\user5.jpg"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\logo.png",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\logo.png",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/logo.png",
       "AssetKind": "All",
@@ -1054,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\logo1.png",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\logo1.png",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/logo1.png",
       "AssetKind": "All",
@@ -1071,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo1.png"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\preloader.gif",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\img\\preloader.gif",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "img/preloader.gif",
       "AssetKind": "All",
@@ -1088,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\img\\preloader.gif"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\bootstrap.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1105,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\Chart.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\Chart.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "js/Chart.min.js",
       "AssetKind": "All",
@@ -1122,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Chart.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\datepicker.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\datepicker.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "js/datepicker.min.js",
       "AssetKind": "All",
@@ -1139,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\js\\datepicker.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\fullcalendar.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\fullcalendar.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "js/fullcalendar.min.js",
       "AssetKind": "All",
@@ -1156,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\js\\fullcalendar.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\google-marker-map.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\google-marker-map.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "js/google-marker-map.js",
       "AssetKind": "All",
@@ -1173,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\js\\google-marker-map.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\jquery.counterup.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\jquery.counterup.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "js/jquery.counterup.min.js",
       "AssetKind": "All",
@@ -1190,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.counterup.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\jquery.dataTables.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\jquery.dataTables.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "js/jquery.dataTables.min.js",
       "AssetKind": "All",
@@ -1207,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.dataTables.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\jquery.scrollUp.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\jquery.scrollUp.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "js/jquery.scrollUp.min.js",
       "AssetKind": "All",
@@ -1224,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.scrollUp.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\jquery.smoothscroll.min.html",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\jquery.smoothscroll.min.html",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "js/jquery.smoothscroll.min.html",
       "AssetKind": "All",
@@ -1241,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.smoothscroll.min.html"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\jquery.waypoints.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\jquery.waypoints.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "js/jquery.waypoints.min.js",
       "AssetKind": "All",
@@ -1258,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.waypoints.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\jquery-3.3.1.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "js/jquery-3.3.1.min.js",
       "AssetKind": "All",
@@ -1275,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-3.3.1.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\main.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\main.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
@@ -1292,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\modernizr-3.6.0.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\modernizr-3.6.0.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "js/modernizr-3.6.0.min.js",
       "AssetKind": "All",
@@ -1309,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\js\\modernizr-3.6.0.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\moment.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\moment.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "js/moment.min.js",
       "AssetKind": "All",
@@ -1326,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\js\\moment.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\plugins.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\plugins.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "js/plugins.js",
       "AssetKind": "All",
@@ -1343,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\js\\plugins.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\popper.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\popper.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "js/popper.min.js",
       "AssetKind": "All",
@@ -1360,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\js\\popper.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\select2.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\select2.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "js/select2.min.js",
       "AssetKind": "All",
@@ -1377,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\js\\select2.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\site.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\site.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1394,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\summernote-bs4.min.html",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\js\\summernote-bs4.min.html",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "js/summernote-bs4.min.html",
       "AssetKind": "All",
@@ -1411,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\js\\summernote-bs4.min.html"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1428,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1445,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1462,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1479,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1496,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1513,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1530,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1547,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1564,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1581,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1598,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1615,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1632,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1649,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1666,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1683,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1700,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1717,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1734,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1751,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1768,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1785,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1802,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1819,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1836,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1853,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1870,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1887,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1904,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1921,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1938,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1955,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1972,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1989,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2006,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2023,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2040,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2057,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2074,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2091,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2108,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2125,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2142,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2159,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2176,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2193,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2210,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2227,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2244,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2261,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2278,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2295,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2312,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2329,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2346,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2363,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2380,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-brands-400.eot",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-brands-400.eot",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "webfonts/fa-brands-400.eot",
       "AssetKind": "All",
@@ -2397,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-brands-400.html",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-brands-400.html",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "webfonts/fa-brands-400.html",
       "AssetKind": "All",
@@ -2414,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-brands-400.html"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-brands-400.ttf",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "webfonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -2431,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-brands-400.woff",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-brands-400.woff",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "webfonts/fa-brands-400.woff",
       "AssetKind": "All",
@@ -2448,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-brands-400d41d.eot",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-brands-400d41d.eot",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "webfonts/fa-brands-400d41d.eot",
       "AssetKind": "All",
@@ -2465,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-brands-400d41d.eot"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-brands-401.html",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-brands-401.html",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "webfonts/fa-brands-401.html",
       "AssetKind": "All",
@@ -2482,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-brands-401.html"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-regular-400.eot",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-regular-400.eot",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "webfonts/fa-regular-400.eot",
       "AssetKind": "All",
@@ -2499,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-regular-400.html",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-regular-400.html",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "webfonts/fa-regular-400.html",
       "AssetKind": "All",
@@ -2516,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-regular-400.html"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-regular-400.ttf",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "webfonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -2533,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-regular-400.woff",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-regular-400.woff",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "webfonts/fa-regular-400.woff",
       "AssetKind": "All",
@@ -2550,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-regular-400d41d.eot",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-regular-400d41d.eot",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "webfonts/fa-regular-400d41d.eot",
       "AssetKind": "All",
@@ -2567,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-regular-400d41d.eot"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-regular-401.html",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-regular-401.html",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "webfonts/fa-regular-401.html",
       "AssetKind": "All",
@@ -2584,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-regular-401.html"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-solid-900.eot",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-solid-900.eot",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "webfonts/fa-solid-900.eot",
       "AssetKind": "All",
@@ -2601,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-solid-900.html",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-solid-900.html",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "webfonts/fa-solid-900.html",
       "AssetKind": "All",
@@ -2618,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-solid-900.html"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-solid-900.ttf",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "webfonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -2635,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-solid-900.woff",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-solid-900.woff",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "webfonts/fa-solid-900.woff",
       "AssetKind": "All",
@@ -2652,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-solid-900d41d.eot",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-solid-900d41d.eot",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "webfonts/fa-solid-900d41d.eot",
       "AssetKind": "All",
@@ -2669,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\webfonts\\fa-solid-900d41d.eot"
     },
     {
-      "Identity": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-solid-901.html",
+      "Identity": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\webfonts\\fa-solid-901.html",
       "SourceId": "CenterAppWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITI Projects\\Project\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
+      "ContentRoot": "D:\\GradutionProjectitiCleanUp\\ITIFinialProject\\CenterAppWeb\\wwwroot\\",
       "BasePath": "_content/CenterAppWeb",
       "RelativePath": "webfonts/fa-solid-901.html",
       "AssetKind": "All",
