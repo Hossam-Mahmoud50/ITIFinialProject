@@ -64,6 +64,11 @@ namespace CenterAppWeb.Controllers
                 return NotFound();
             }
 
+            ViewBag.Groups = _context.StudentGroup.Include(x => x.Group)
+                .Include(x => x.Group.Teacher)
+                .Include(x => x.Group.Teacher.TeacherMatrial)
+                .Where(x => x.Student_Id == id).ToList();
+
             return View(student);
         }
 
@@ -234,7 +239,7 @@ namespace CenterAppWeb.Controllers
             {
                 GroupName = x.Group.Group_Name,
                 GroupId = x.Group_Id
-            }).ToList(); 
+            }).ToList();
             var students = _context.Students.Where(x => x.Student_Id == id).ToList();
             ViewBag.Groups = groups;
             ViewBag.Students = students;

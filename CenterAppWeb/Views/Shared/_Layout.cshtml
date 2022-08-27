@@ -15,6 +15,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="~/img/favicon.png">
+    <link href="~/lib/datatables.net-bs5/datatables.bootstrap5.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="~/css/normalize.css">
     <!-- Main CSS -->
@@ -285,7 +287,18 @@
                         </li>
                        
                        
-                        
+                        <li class="nav-item sidebar-nav-item">
+                            <a href="#" class="nav-link"><i class="flaticon-shopping-list"></i><span>Group</span></a>
+                            <ul class="nav sub-group-menu">
+                                <li class="nav-item">
+                                    <a asp-action="Index" asp-controller="Groups" class="nav-link"><i class="fas fa-angle-right"></i>Group Teachers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-action="Create" asp-controller="Groups" class="nav-link"><i class="fas fa-angle-right"></i>Add Teacher</a>
+                                </li>
+                               
+                            </ul>
+                        </li>
                        
                         
                        
@@ -293,11 +306,19 @@
                             <a href="#" class="nav-link"><i class="flaticon-shopping-list"></i><span>Exam</span></a>
                             <ul class="nav sub-group-menu">
                                 <li class="nav-item">
-                                    <a href="exam-schedule.html" class="nav-link"><i class="fas fa-angle-right"></i>Exam
-                                        Schedule</a>
+                                    <a asp-action="IndexExam" asp-controller="Exam" class="nav-link"><i class="fas fa-angle-right"></i>Exam List
+                                        </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="exam-grade.html" class="nav-link"><i class="fas fa-angle-right"></i>Exam
+                                    <a asp-action="CreateExam" asp-controller="Exam" class="nav-link"><i class="fas fa-angle-right"></i>Exam
+                                        Schedule</a>
+                                </li>
+                                 <li class="nav-item">
+                                    <a asp-action="IndexGrade" asp-controller="Exam" class="nav-link"><i class="fas fa-angle-right"></i>Exam Grade List
+                                        </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-action="CreateGrade" asp-controller="Exam" class="nav-link"><i class="fas fa-angle-right"></i>Exam
                                         Grades</a>
                                 </li>
                             </ul>
@@ -311,7 +332,11 @@
                        
                         <li class="nav-item">
                             <a asp-action="AccountSetting" asp-controller="Home" class="nav-link"><i
-                                    class="flaticon-settings"></i><span>Account</span></a>
+                                                                                                      class="flaticon-settings"></i><span>Account</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-action="Index" asp-controller="Stuff" class="nav-link"><i
+                                    class="flaticon-settings"></i><span>Stuff</span></a>
                         </li>
                     </ul>
                 </div>
@@ -342,6 +367,10 @@
     </div>
     <!-- jquery-->
     <script src="~/js/jquery-3.3.1.min.js"></script>
+  @*  <script src="~/lib/datatables.net/jquery.datatables.js"></script>
+<script src="~/lib/datatables.net/jquery.datatables.min.js"></script>*@
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
     <!-- Plugins js -->
     <script src="~/js/plugins.js"></script>
     <!-- Popper js -->
@@ -361,7 +390,8 @@
     <!-- Chart Js -->
     <script src="~/js/Chart.min.js"></script>
     <!-- Custom Js -->
-    <script src="~/js/main.js"></script>
+<script src="~/js/main.js"></script>
+
      @await RenderSectionAsync("Scripts", required: false)
 </body>
 

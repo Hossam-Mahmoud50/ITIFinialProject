@@ -10,6 +10,7 @@ public class Matrial
     public virtual IList<LevelMatrial>? LevelMatrial { get; set; }
     public virtual IList<TeacherMatrial>? TeacherMatrial { get; set; }
     public ICollection<StudentPayments> StudentPayments { get; set; }
+    public IEnumerable<Exam> Exams { get; set; }
 
     // public ICollection<Teacher> Teachers { get; set; }
 

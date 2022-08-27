@@ -1,0 +1,61 @@
+﻿@model ExamScheduleVM
+
+@{
+    ViewData["Title"] = "Details";
+}
+ <div class="dashboard-content-one">
+                <!-- Breadcubs Area Start Here -->
+                <div class="breadcrumbs-area">
+                    <h3>Exam</h3>
+                   
+                </div>
+              
+                <div class="card height-auto">
+                    <div class="card-body">
+                        <div class="heading-layout1">
+                            <div class="item-title">
+                                <h3>About Exam</h3>
+                            </div>
+                           
+                        </div>
+                        <div class="single-info-details">
+                            
+                            <div class="item-content">
+                                <div class="header-inline item-header">
+                                    <h3 class="text-dark-medium font-medium">@Model.Exam.Exam_Title</h3>
+                                </div>
+                                @* / *@
+                                <div class="info-table table-responsive">
+                                    <table class="table text-nowrap">
+                                        <tbody>
+                                            <tr>
+                                                <td>Title:</td>
+                                                <td class="font-medium text-dark-medium">Exam.Exam_Title</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Start Date:</td>
+                                                <td class="font-medium text-dark-medium">Exam.Exam_Start_Date</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Time:</td>
+                                                <td class="font-medium text-dark-medium">Exam.Time</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Material:</td>
+                                                <td class="font-medium text-dark-medium">Exam.Matrials.Matrial_Name</td>
+                                            </tr>
+                                           
+                                           <tr>
+                                                <td>Group:</td>
+                                                <td class="font-medium text-dark-medium">Exam.Group.Group_Name</td>
+                                            </tr>
+                                           
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+            </div>

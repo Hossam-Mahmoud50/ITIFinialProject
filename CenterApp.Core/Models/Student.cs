@@ -23,6 +23,6 @@ namespace CenterApp.Core.Models
         public ICollection<StudentGroup>? StudentGroup { get; set; }
         public ICollection<StudentPayments>? StudentPayments { get; set; }
         public ICollection<StudentAttend>? StudentAttends { get; set; }
-
+        public Grade Grade { get; set; }
     }
 }

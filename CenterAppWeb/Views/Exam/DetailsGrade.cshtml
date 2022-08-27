@@ -1,0 +1,58 @@
+﻿@model ExamScheduleVM
+
+@{
+    ViewData["Title"] = "DetailsGrade";
+}
+ <div class="dashboard-content-one">
+                <!-- Breadcubs Area Start Here -->
+                <div class="breadcrumbs-area">
+                    <h3>Grade</h3>
+                   
+                </div>
+              
+                <div class="card height-auto">
+                    <div class="card-body">
+                        <div class="heading-layout1">
+                            <div class="item-title">
+                                <h3>About Grade</h3>
+                            </div>
+                           
+                        </div>
+                        <div class="single-info-details">
+                            
+                            <div class="item-content">
+                                <div class="header-inline item-header">
+                                    <h3 class="text-dark-medium font-medium">@Model.Grade.Grade_Id</h3>
+                                </div>
+                                <p>Aliquam erat volutpat. Curabiene natis massa sedde lacu stiquen sodale 
+                                word moun taiery.Aliquam erat volutpaturabiene natis massa sedde  sodale 
+                                word moun taiery.</p>
+                                <div class="info-table table-responsive">
+                                    <table class="table text-nowrap">
+                                        <tbody>
+                                            <tr>
+                                                <td>Grade Name:</td>
+                                                <td class="font-medium text-dark-medium">Grade.Grade_Name</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Grade Point:</td>
+                                                <td class="font-medium text-dark-medium">Grade.Grade_Point</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Persentage From:</td>
+                                                <td class="font-medium text-dark-medium">Grade.Percentage_From</td> 
+                                            </tr>
+                                            <tr>
+                                                <td>Persentage Upto:</td>
+                                                <td class="font-medium text-dark-medium">Grade.Percentage_Upto</td>
+                                            </tr>
+                                           
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+            </div>

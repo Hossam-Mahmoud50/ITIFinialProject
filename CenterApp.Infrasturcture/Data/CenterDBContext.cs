@@ -81,7 +81,21 @@ public class CenterDBContext : DbContext
         modelBuilder.Entity<StudentAttend>().Property(x => x.AttendDate).IsRequired().HasMaxLength(40);
         modelBuilder.Entity<StudentAttend>().HasOne(s => s.Student).WithMany(d => d.StudentAttends).HasForeignKey(d => d.Student_Id);
         modelBuilder.Entity<StudentAttend>().HasOne(s => s.Stage).WithMany(d => d.StudentAttends).HasForeignKey(d => d.Stage_Id);
-
+        modelBuilder.Entity<Exam>().HasKey(x => x.Exam_Id);
+        modelBuilder.Entity<Exam>().Property(x => x.Exam_Title).IsRequired().HasMaxLength(40);
+        modelBuilder.Entity<Exam>().Property(x => x.Exam_Start_Date).IsRequired().HasMaxLength(30);
+        modelBuilder.Entity<Exam>().Property(x => x.Time).IsRequired();
+        modelBuilder.Entity<Exam>().HasOne<Group>(x => x.Group).WithMany(x => x.Exams)
+            .HasForeignKey(x => x.Group_Id);
+        modelBuilder.Entity<Exam>().HasOne<Matrial>(x => x.Matrials).WithMany(x => x.Exams)
+            .HasForeignKey(x => x.Matrial_Id);
+        modelBuilder.Entity<Grade>().HasOne<Exam>(x => x.Exams).WithMany(x => x.Grades).HasForeignKey(x => x.Exam_Id);
+        modelBuilder.Entity<Grade>().HasKey(x => x.Grade_Id);
+        modelBuilder.Entity<Grade>().Property(x => x.Grade_Name).IsRequired().HasMaxLength(40);
+        modelBuilder.Entity<Grade>().Property(x => x.Grade_Point).IsRequired().HasMaxLength(30);
+        modelBuilder.Entity<Grade>().Property(x => x.Percentage_From).IsRequired().HasMaxLength(20);
+        modelBuilder.Entity<Grade>().Property(x => x.Percentage_Upto).IsRequired().HasMaxLength(20);
+        modelBuilder.Entity<Grade>().HasOne(x=>x.student).WithOne(x=>x.Grade).HasForeignKey<Grade>(x=>x.Student_Id);
     }
 
     public DbSet<Level> Levels { get; set; }
@@ -96,5 +110,7 @@ public class CenterDBContext : DbContext
     public DbSet<StudentPayments> StudentPayments { get; set; }
     public DbSet<Stuff> Stuff { get; set; }
     public DbSet<StudentAttend> StudentAttends { get; set; }
+    public DbSet<Exam> Exams { get; set; }
+    public DbSet<Grade> Grade { get; set; }
 
 }

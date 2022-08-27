@@ -1,0 +1,50 @@
+﻿@model  ExamScheduleVM
+
+@{
+    ViewData["Title"] = "EditGrade";
+}
+
+<h1>Edit Grade</h1>
+
+<h4>Grade</h4>
+<hr />
+<form asp-action="EditGrade">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Grade.Grade_Id" />
+            <div class="row">
+            <div class="col-xl-3 col-lg-6 col-12 form-group">
+                <label asp-for="Grade.Grade_Name" class="control-label"></label>
+                <input asp-for="Grade.Grade_Name" class="form-control" />
+                <span asp-validation-for="Grade.Grade_Name" class="text-danger"></span>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-12 form-group">
+                <label asp-for="Grade.Grade_Point" class="control-label"></label>
+                <input asp-for="Grade.Grade_Point" class="form-control" />
+                <span asp-validation-for="Grade.Grade_Point" class="text-danger"></span>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-12 form-group">
+                <label asp-for="Grade.Percentage_From" class="control-label"></label>
+                <input asp-for="Grade.Percentage_From" class="form-control" />
+                <span asp-validation-for="Grade.Percentage_From" class="text-danger"></span>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-12 form-group">
+                <label asp-for="Grade.Percentage_Upto" class="control-label"></label>
+                <input asp-for="Grade.Percentage_Upto" class="form-control" />
+                <span asp-validation-for="Grade.Percentage_Upto" class="text-danger"></span>
+            </div>
+            
+             <div class="col-12 form-group mg-t-8">
+                <input type="submit" value="Save" class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark" />
+            </div>
+             </div>
+        </form>
+   
+
+
+<div>
+    <a asp-action="IndexGrade">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

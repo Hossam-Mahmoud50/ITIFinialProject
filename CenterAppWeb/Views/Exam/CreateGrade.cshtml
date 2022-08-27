@@ -1,0 +1,67 @@
+﻿@using CenterAppWeb.ViewModel;
+@model Grade;
+@{
+    ViewData["Title"] = "CreateGrade";
+}
+<div class="card ui-tab-card">
+    <div class="card-body">
+        <div class="heading-layout1 mg-b-25">
+            <div class="item-title">
+                <h3>Add New Grade</h3>
+            </div>
+            <div class="dropdown">
+                <a class="dropdown-toggle" href="#" role="button"
+                   data-toggle="dropdown" aria-expanded="false">...</a>
+
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                </div>
+            </div>
+        </div>
+               
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="tab1" role="tabpanel">
+                    <form asp-action="CreateGrade" class="new-added-form" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="row">
+                           
+                           <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                <label asp-for="Grade_Name" class="control-label"></label>
+                                <input asp-for="Grade_Name" class="form-control" /> 
+                                <span asp-validation-for="Grade_Name" class="text-danger"></span>
+                           </div>
+                           <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                <label asp-for="Grade_Point" class="control-label"></label>
+                                <input asp-for="Grade_Point" class="form-control" /> 
+                                <span asp-validation-for="Grade_Point" class="text-danger"></span>
+                           </div>
+                           <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                <label asp-for="Percentage_From" class="control-label"></label>
+                                <input asp-for="Percentage_From" class="form-control" /> 
+                                <span asp-validation-for="Percentage_From" class="text-danger"></span>
+                           </div>
+                           <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                <label asp-for="Percentage_Upto" class="control-label"></label>
+                                <input asp-for="Percentage_Upto" class="form-control" />
+                                <span asp-validation-for="Percentage_Upto" class="text-danger"></span>
+                            </div>
+                           
+                            <div class="col-12 form-group mg-t-8">
+                               <div class="row">
+                              <div class="col-xl-3 form-group">
+                                <button type="submit"  class="fw-btn-fill btn-fill-md btn-gradient-yellow">Save</button>
+                              </div>
+                                <div class="col-xl-3 form-group">
+                               
+                                <button type="reset" class="fw-btn-fill btn-fill-md btn-gradient-yellow">Reset</button>
+                               </div>
+                               </div>
+                            </div>
+                         </div>
+                     </form>
+                 </div>
+            </div>
+       </div>
+   </div>

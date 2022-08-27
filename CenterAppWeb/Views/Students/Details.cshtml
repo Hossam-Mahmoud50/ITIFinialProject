@@ -1,5 +1,8 @@
 ﻿@model CenterApp.Core.Models.Student
-
+@{
+    ViewData["Title"] = "Details";
+    List<StudentGroup> lstGroup = ViewBag.Groups;
+}
             <!-- Sidebar Area End Here -->
             <div class="dashboard-content-one">
                 <!-- Breadcubs Area Start Here -->
@@ -57,35 +60,35 @@
                                             </tr>
                                             <tr>
                                                 <td>Gender:</td>
-                                                <td class="font-medium text-dark-medium">@Model.Gender</td>
+                                                <td class="font-medium text-dark-medium">@(Model.Gender?"Male":"Female")</td>
                                             </tr>
 
                                             <tr>
                                                 <td>Date Of Birth:</td>
-                                                <td class="font-medium text-dark-medium">@Html.DisplayNameFor(model => model.Student_BirthOfDate)</td>
+                                                <td class="font-medium text-dark-medium">@Model.Student_BirthOfDate</td>
                                             </tr>
                                           
                                             <tr>
                                                 <td>E-mail:</td>
-                                                <td class="font-medium text-dark-medium">@Html.DisplayNameFor(model => model.Student_Email)</td>
+                                                <td class="font-medium text-dark-medium">@Model.Student_Email</td>
                                             </tr>
                                             <tr>
                                                 <td>Registeration Date:</td>
-                                                <td class="font-medium text-dark-medium">@Html.DisplayNameFor(model => model.Student_RegisterDate)</td>
+                                                <td class="font-medium text-dark-medium">@Model.Student_RegisterDate</td>
                                             </tr>
                                            
                                             <tr>
                                                 <td>Address:</td>
-                                                <td class="font-medium text-dark-medium">@Html.DisplayNameFor(model => model.Student_Address)</td>
+                                                <td class="font-medium text-dark-medium">@Model.Student_Address</td>
                                             </tr>
                                             <tr>
                                                 <td>Phone:</td>
-                                                <td class="font-medium text-dark-medium">@Html.DisplayNameFor(model => model.Student_StdPhone)</td>
+                                                <td class="font-medium text-dark-medium">@Model.Student_StdPhone</td>
                                             </tr>
 
                                             <tr>
                                                 <td>Parent Phone:</td>
-                                                <td class="font-medium text-dark-medium">@Html.DisplayNameFor(model => model.Student_ParentPhone)</td>
+                                                <td class="font-medium text-dark-medium">@Model.Student_ParentPhone</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -94,21 +97,57 @@
                         </div>
                     <br />
                     <br />
-                <div class="row">
-                    <div class="col">
-                        <a asp-action="payForSupject" asp-controller="Students" asp-route-id="@Model.Student_Id" class="btn btn-lg btn-outline-primary">Pay</a>
-                    </div>
-                    <div class="col">
-                        <a asp-action="studentAttend" asp-controller="Students" asp-route-id="@Model.Student_Id" class="btn btn-lg btn-outline-warning"> add Attend</a>
-                    </div>
-                    <div class="col">
-                        <a asp-action="GetAttendDetails" asp-controller="Students" asp-route-id="@Model.Student_Id" class="btn btn-lg btn-outline-success">Show Attend</a>
-                    </div>
-                    <div class="col">
-                        <a asp-action="GetPaymentDetails" asp-controller="Students" asp-route-id="@Model.Student_Id" class="btn btn-lg btn-outline-danger">Show Payment</a>
-                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <a asp-action="payForSupject" asp-controller="Students" asp-route-id="@Model.Student_Id" class="btn btn-lg btn-outline-primary">Pay</a>
+                        </div>
+                        <div class="col">
+                            <a asp-action="studentAttend" asp-controller="Students" asp-route-id="@Model.Student_Id" class="btn btn-lg btn-outline-warning"> add Attend</a>
+                        </div>
+                        <div class="col">
+                            <a asp-action="GetAttendDetails" asp-controller="Students" asp-route-id="@Model.Student_Id" class="btn btn-lg btn-outline-success">Show Attend</a>
+                        </div>
+                        <div class="col">
+                            <a asp-action="GetPaymentDetails" asp-controller="Students" asp-route-id="@Model.Student_Id" class="btn btn-lg btn-outline-danger">Show Payment</a>
+                        </div>
 
-                </div>
+                    </div>
+                    <br/>
+                    <br/>
+                      <div class="item-content">
+                                <div class="header-inline item-header">
+                                    <h3 class="text-dark-medium font-medium">Groups</h3>
+                                </div>
+                               
+                                <div class="info-table table-responsive">
+                                    <table class="table table-striped table-bordered table-hover text-nowrap">
+                                        <thead>
+                                        <tr>
+                                            <td>Group Id</td>
+                                        
+                                            <td>Group Name</td>
+                                       
+                                            <td>Stage_Name</td>
+                                        
+                                            <td>Teacher_Name</td>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        @foreach (var item in lstGroup)
+                                        {
+                                            <tr>
+                                                <td>@item.Group_Id</td>
+                                                <td>@item.Group.Group_Name</td>
+                                                <td>@item.Student.Stage.Stage_Name</td>
+                                                <td>@item.Group.Teacher.Teacher_Name</td>
+                                            </tr>
+                                        }
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                     </div>
                 </div>
    

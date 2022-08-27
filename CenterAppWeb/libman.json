@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "font-awesome@6.1.2",
+      "destination": "wwwroot/lib/font-awesome/"
+    },
+    {
+      "library": "datatables.net-bs@2.1.1",
+      "destination": "wwwroot/lib/datatables.net-bs/"
+    },
+    {
+      "library": "datatables.net@2.1.1",
+      "destination": "wwwroot/lib/datatables.net/"
+    },
+    {
+      "library": "datatables.net-bs5@1.12.1",
+      "destination": "wwwroot/lib/datatables.net-bs5/"
+    }
+  ]
+}

@@ -528,3 +528,4 @@ D:\ITI Projects\Project\ITIFinialProject\CenterAppWeb\obj\Debug\net6.0\refint\Ce
 D:\ITI Projects\Project\ITIFinialProject\CenterAppWeb\obj\Debug\net6.0\CenterAppWeb.pdb
 D:\ITI Projects\Project\ITIFinialProject\CenterAppWeb\obj\Debug\net6.0\CenterAppWeb.genruntimeconfig.cache
 D:\ITI Projects\Project\ITIFinialProject\CenterAppWeb\obj\Debug\net6.0\ref\CenterAppWeb.dll
+D:\ITI Projects\Project\ITIFinialProject\CenterAppWeb\bin\Debug\net6.0\libman.json

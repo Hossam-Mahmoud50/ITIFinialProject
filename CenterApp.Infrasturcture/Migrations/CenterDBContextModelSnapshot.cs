@@ -22,6 +22,86 @@ namespace CenterApp.Infrasturcture.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("CenterApp.Core.Models.Exam", b =>
+                {
+                    b.Property<int?>("Exam_Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int?>("Exam_Id"), 1L, 1);
+
+                    b.Property<DateTime>("Exam_Start_Date")
+                        .HasMaxLength(30)
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Exam_Title")
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
+
+                    b.Property<int?>("Group_Id")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Matrial_Id")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Time")
+                        .HasColumnType("int");
+
+                    b.HasKey("Exam_Id");
+
+                    b.HasIndex("Group_Id");
+
+                    b.HasIndex("Matrial_Id");
+
+                    b.ToTable("Exams");
+                });
+
+            modelBuilder.Entity("CenterApp.Core.Models.Grade", b =>
+                {
+                    b.Property<int?>("Grade_Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int?>("Grade_Id"), 1L, 1);
+
+                    b.Property<int?>("Exam_Id")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Grade_Name")
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
+
+                    b.Property<int?>("Grade_Point")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Percentage_From")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Percentage_Upto")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Student_Id")
+                        .HasColumnType("int");
+
+                    b.HasKey("Grade_Id");
+
+                    b.HasIndex("Exam_Id");
+
+                    b.HasIndex("Student_Id")
+                        .IsUnique()
+                        .HasFilter("[Student_Id] IS NOT NULL");
+
+                    b.ToTable("Grade");
+                });
+
             modelBuilder.Entity("CenterApp.Core.Models.Group", b =>
                 {
                     b.Property<int>("Group_Id")
@@ -161,7 +241,7 @@ namespace CenterApp.Infrasturcture.Migrations
                     b.Property<DateTime>("Student_RegisterDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 8, 27, 3, 29, 38, 870, DateTimeKind.Local).AddTicks(5361));
+                        .HasDefaultValue(new DateTime(2022, 8, 27, 4, 15, 55, 136, DateTimeKind.Local).AddTicks(5771));
 
                     b.Property<string>("Student_StdPhone")
                         .IsRequired()
@@ -348,6 +428,36 @@ namespace CenterApp.Infrasturcture.Migrations
                     b.ToTable("TeacherMatrial");
                 });
 
+            modelBuilder.Entity("CenterApp.Core.Models.Exam", b =>
+                {
+                    b.HasOne("CenterApp.Core.Models.Group", "Group")
+                        .WithMany("Exams")
+                        .HasForeignKey("Group_Id");
+
+                    b.HasOne("CenterApp.Core.Models.Matrial", "Matrials")
+                        .WithMany("Exams")
+                        .HasForeignKey("Matrial_Id");
+
+                    b.Navigation("Group");
+
+                    b.Navigation("Matrials");
+                });
+
+            modelBuilder.Entity("CenterApp.Core.Models.Grade", b =>
+                {
+                    b.HasOne("CenterApp.Core.Models.Exam", "Exams")
+                        .WithMany("Grades")
+                        .HasForeignKey("Exam_Id");
+
+                    b.HasOne("CenterApp.Core.Models.Student", "student")
+                        .WithOne("Grade")
+                        .HasForeignKey("CenterApp.Core.Models.Grade", "Student_Id");
+
+                    b.Navigation("Exams");
+
+                    b.Navigation("student");
+                });
+
             modelBuilder.Entity("CenterApp.Core.Models.Group", b =>
                 {
                     b.HasOne("CenterApp.Core.Models.Teacher", "Teacher")
@@ -484,8 +594,15 @@ namespace CenterApp.Infrasturcture.Migrations
                     b.Navigation("Teacher");
                 });
 
+            modelBuilder.Entity("CenterApp.Core.Models.Exam", b =>
+                {
+                    b.Navigation("Grades");
+                });
+
             modelBuilder.Entity("CenterApp.Core.Models.Group", b =>
                 {
+                    b.Navigation("Exams");
+
                     b.Navigation("StudentGroup");
 
                     b.Navigation("StudentPayments");
@@ -500,6 +617,8 @@ namespace CenterApp.Infrasturcture.Migrations
 
             modelBuilder.Entity("CenterApp.Core.Models.Matrial", b =>
                 {
+                    b.Navigation("Exams");
+
                     b.Navigation("LevelMatrial");
 
                     b.Navigation("StudentPayments");
@@ -518,6 +637,9 @@ namespace CenterApp.Infrasturcture.Migrations
 
             modelBuilder.Entity("CenterApp.Core.Models.Student", b =>
                 {
+                    b.Navigation("Grade")
+                        .IsRequired();
+
                     b.Navigation("StudentAttends");
 
                     b.Navigation("StudentGroup");

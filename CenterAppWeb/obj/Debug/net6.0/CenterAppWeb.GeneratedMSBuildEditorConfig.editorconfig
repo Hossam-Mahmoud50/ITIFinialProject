@@ -23,6 +23,62 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdHRpbmdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ITI Projects/Project/ITIFinialProject/CenterAppWeb/Views/Exam/CreateExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxDcmVhdGVFeGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Projects/Project/ITIFinialProject/CenterAppWeb/Views/Exam/CreateGrade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxDcmVhdGVHcmFkZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Projects/Project/ITIFinialProject/CenterAppWeb/Views/Exam/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Projects/Project/ITIFinialProject/CenterAppWeb/Views/Exam/DetailsGrade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxEZXRhaWxzR3JhZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Projects/Project/ITIFinialProject/CenterAppWeb/Views/Exam/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Projects/Project/ITIFinialProject/CenterAppWeb/Views/Exam/EditGrade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxFZGl0R3JhZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Projects/Project/ITIFinialProject/CenterAppWeb/Views/Exam/IndexExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxJbmRleEV4YW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Projects/Project/ITIFinialProject/CenterAppWeb/Views/Exam/IndexGrade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxJbmRleEdyYWRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Projects/Project/ITIFinialProject/CenterAppWeb/Views/Groups/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Projects/Project/ITIFinialProject/CenterAppWeb/Views/Groups/CreateStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXENyZWF0ZVN0dWRlbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Projects/Project/ITIFinialProject/CenterAppWeb/Views/Groups/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Projects/Project/ITIFinialProject/CenterAppWeb/Views/Groups/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Projects/Project/ITIFinialProject/CenterAppWeb/Views/Groups/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITI Projects/Project/ITIFinialProject/CenterAppWeb/Views/Groups/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ITI Projects/Project/ITIFinialProject/CenterAppWeb/Views/Home/AccountSetting.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2NvdW50U2V0dGluZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

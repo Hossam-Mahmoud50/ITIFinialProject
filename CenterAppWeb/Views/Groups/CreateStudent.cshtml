@@ -1,0 +1,90 @@
+﻿@model StudentGroupVm
+
+@{
+    ViewData["Title"] = "CreateStudent";
+}
+
+<h1>Create Student</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateStudent">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Matrial_Id" class="control-label"></label>
+                <select asp-for="Matrial_Id" id="MatrialId" class ="form-control" asp-items="@(new SelectList(ViewBag.Matrial,"Matrial_Id","Matrial_Name"))"></select>
+            </div>
+
+        <div class="form-group">
+                <label asp-for="Teacher_Id" class="control-label"></label>
+                <select asp-for="Teacher_Id" class ="form-control" ></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Group_Id" class="control-label"></label>
+                <select asp-for="Group_Id" class ="form-control" ></select>
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+                
+@section Scripts
+{
+    <script>
+        $(function() {
+            
+            $("#MatrialId").change(function() {
+                $.ajax({
+                    url: '@Url.Action("GetTeachers", "Groups")',
+                    type: "GET",
+                    data: {
+                        Matrial_Id: $(this).val()
+                    },
+                    success: function(data) {
+                        console.log(data);
+                        $('#Teacher_Id').find('option').remove();
+                        $('#Teacher_Id').append('<option value="0">"Select Teacher"</option>');
+                        $(data).each(function(index, item) {
+                            $('#Teacher_Id').append(`<option value="${item.teacher_Id}">"${item.teacher_Name}"</option>`);
+                        });
+                    },
+                    error: function(err) {
+                        console.log(err);
+                    }
+                });
+                
+            
+        });
+              $("#Teacher_Id").change(function() {
+                $.ajax({
+                    url: '@Url.Action("GetGroups", "Groups")',
+                    type: "GET",
+                    data: {
+                        teacher_Id: $(this).val()
+                    },
+                    success: function(data) {
+                        console.log(data);
+                        $('#Group_Id').find('option').remove();
+                        $('#Group_Id').append('<option value="0">"Select Group"</option>');
+                        $(data).each(function(index, item) {
+                            $('#Group_Id').append(`<option value="${item.group_Id}">"${item.group_Name}"</option>`);
+                        });
+                    },
+                    error: function(err) {
+                        console.log(err);
+                    }
+                });
+                
+            
+        });
+        })
+    </script>
+}
