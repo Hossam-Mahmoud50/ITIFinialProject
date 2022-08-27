@@ -22,6 +22,7 @@ namespace CenterApp.Core.Models
         public virtual Stage? Stage { get; set; }
         public ICollection<StudentGroup>? StudentGroup { get; set; }
         public ICollection<StudentPayments>? StudentPayments { get; set; }
+        public ICollection<StudentAttend>? StudentAttends { get; set; }
 
     }
 }

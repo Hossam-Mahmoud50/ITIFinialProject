@@ -17,7 +17,7 @@ namespace CenterApp.Infrasturcture.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.7")
+                .HasAnnotation("ProductVersion", "6.0.8")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -161,7 +161,7 @@ namespace CenterApp.Infrasturcture.Migrations
                     b.Property<DateTime>("Student_RegisterDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 8, 13, 1, 29, 39, 464, DateTimeKind.Local).AddTicks(3386));
+                        .HasDefaultValue(new DateTime(2022, 8, 27, 3, 29, 38, 870, DateTimeKind.Local).AddTicks(5361));
 
                     b.Property<string>("Student_StdPhone")
                         .IsRequired()
@@ -172,6 +172,36 @@ namespace CenterApp.Infrasturcture.Migrations
                     b.HasIndex("Stage_id");
 
                     b.ToTable("Students");
+                });
+
+            modelBuilder.Entity("CenterApp.Core.Models.StudentAttend", b =>
+                {
+                    b.Property<int>("Attend_Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Attend_Id"), 1L, 1);
+
+                    b.Property<DateTime>("AttendDate")
+                        .HasMaxLength(40)
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsAttend")
+                        .HasColumnType("bit");
+
+                    b.Property<int?>("Stage_Id")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Student_Id")
+                        .HasColumnType("int");
+
+                    b.HasKey("Attend_Id");
+
+                    b.HasIndex("Stage_Id");
+
+                    b.HasIndex("Student_Id");
+
+                    b.ToTable("StudentAttends");
                 });
 
             modelBuilder.Entity("CenterApp.Core.Models.StudentGroup", b =>
@@ -200,10 +230,13 @@ namespace CenterApp.Infrasturcture.Migrations
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("Group_Id")
+                        .HasColumnType("int");
+
                     b.Property<bool>("IsPaid")
                         .HasColumnType("bit");
 
-                    b.Property<int>("Matrial_Id")
+                    b.Property<int?>("Matrial_Id")
                         .HasColumnType("int");
 
                     b.Property<double>("Price")
@@ -214,11 +247,49 @@ namespace CenterApp.Infrasturcture.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("Group_Id");
+
                     b.HasIndex("Matrial_Id");
 
                     b.HasIndex("Student_Id");
 
                     b.ToTable("StudentPayments");
+                });
+
+            modelBuilder.Entity("CenterApp.Core.Models.Stuff", b =>
+                {
+                    b.Property<int>("Stuff_Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Stuff_Id"), 1L, 1);
+
+                    b.Property<DateTime>("Stuff_BirthOfDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Stuff_Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Stuff_Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Stuff_Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Stuff_Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Stuff_Specilist")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Stuff_Id");
+
+                    b.ToTable("Stuff");
                 });
 
             modelBuilder.Entity("CenterApp.Core.Models.Teacher", b =>
@@ -329,6 +400,21 @@ namespace CenterApp.Infrasturcture.Migrations
                     b.Navigation("Stage");
                 });
 
+            modelBuilder.Entity("CenterApp.Core.Models.StudentAttend", b =>
+                {
+                    b.HasOne("CenterApp.Core.Models.Stage", "Stage")
+                        .WithMany("StudentAttends")
+                        .HasForeignKey("Stage_Id");
+
+                    b.HasOne("CenterApp.Core.Models.Student", "Student")
+                        .WithMany("StudentAttends")
+                        .HasForeignKey("Student_Id");
+
+                    b.Navigation("Stage");
+
+                    b.Navigation("Student");
+                });
+
             modelBuilder.Entity("CenterApp.Core.Models.StudentGroup", b =>
                 {
                     b.HasOne("CenterApp.Core.Models.Group", "Group")
@@ -350,11 +436,15 @@ namespace CenterApp.Infrasturcture.Migrations
 
             modelBuilder.Entity("CenterApp.Core.Models.StudentPayments", b =>
                 {
-                    b.HasOne("CenterApp.Core.Models.Matrial", "Matrial")
+                    b.HasOne("CenterApp.Core.Models.Group", "Group")
                         .WithMany("StudentPayments")
-                        .HasForeignKey("Matrial_Id")
+                        .HasForeignKey("Group_Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("CenterApp.Core.Models.Matrial", null)
+                        .WithMany("StudentPayments")
+                        .HasForeignKey("Matrial_Id");
 
                     b.HasOne("CenterApp.Core.Models.Student", "Student")
                         .WithMany("StudentPayments")
@@ -362,7 +452,7 @@ namespace CenterApp.Infrasturcture.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Matrial");
+                    b.Navigation("Group");
 
                     b.Navigation("Student");
                 });
@@ -397,6 +487,8 @@ namespace CenterApp.Infrasturcture.Migrations
             modelBuilder.Entity("CenterApp.Core.Models.Group", b =>
                 {
                     b.Navigation("StudentGroup");
+
+                    b.Navigation("StudentPayments");
                 });
 
             modelBuilder.Entity("CenterApp.Core.Models.Level", b =>
@@ -417,6 +509,8 @@ namespace CenterApp.Infrasturcture.Migrations
 
             modelBuilder.Entity("CenterApp.Core.Models.Stage", b =>
                 {
+                    b.Navigation("StudentAttends");
+
                     b.Navigation("Students");
 
                     b.Navigation("TeacherMatrial");
@@ -424,6 +518,8 @@ namespace CenterApp.Infrasturcture.Migrations
 
             modelBuilder.Entity("CenterApp.Core.Models.Student", b =>
                 {
+                    b.Navigation("StudentAttends");
+
                     b.Navigation("StudentGroup");
 
                     b.Navigation("StudentPayments");

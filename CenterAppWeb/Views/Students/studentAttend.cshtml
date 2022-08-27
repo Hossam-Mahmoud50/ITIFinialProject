@@ -1,0 +1,35 @@
+﻿@using CenterAppWeb.ViewModel;
+@model AttendVM;
+<div class="container text-center">
+    <div class="Card">
+    <h1>Student Attend</h1>
+    <div class="Card-body">
+    <form method="post" asp-action="studentAttend" > 
+        <div class="form-group">
+            <span>Student</span>
+            <h3 class="text-dark-medium font-medium">@Model.oneStudent.Student_Name</h3>
+        </div>
+        <div class="form-group">
+            <span>Stage</span>
+            <select asp-for="Stage_Id"
+                    class="form-control"
+                    asp-items="@(new SelectList(ViewBag.Stages, "Stage_Id", "Stage_Name"))">
+            </select>
+        </div>
+        <div class="form-group">
+            <span>Date</span>
+            <input class="form-control" asp-for="AttendDate" type="date" />
+        </div>
+        <div class="form-group">
+            <span>Is Attend</span>
+            <input type="checkbox" class="from-control" asp-for="IsAttend" />
+        </div>
+   
+         <div class="form-group">
+            <button class="btn btn-primary"  type="submit">Save</button>
+        </div>
+    </form>
+
+    </div>
+    </div>
+</div>

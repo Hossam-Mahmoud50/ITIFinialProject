@@ -11,8 +11,8 @@ namespace CenterApp.Core.Models
         public int Id { get; set; }
         public int Student_Id { get; set; }
         public Student Student { get; set; }
-        public int Matrial_Id { get; set; }
-        public Matrial Matrial { get; set; }
+        public int Group_Id { get; set; }
+        public Group Group { get; set; }
         public double Price { get; set; }
         public bool IsPaid { get; set; }
         public DateTime Date { get; set; }

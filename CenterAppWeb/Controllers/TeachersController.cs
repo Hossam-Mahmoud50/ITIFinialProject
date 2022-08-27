@@ -30,7 +30,7 @@ namespace CenterAppWeb.Controllers
         public async Task<IActionResult> Index()
 
         {
-                      TeacherSearchIndexVM teacherSearchIndexVM = new TeacherSearchIndexVM();
+            TeacherSearchIndexVM teacherSearchIndexVM = new TeacherSearchIndexVM();
             teacherSearchIndexVM.Teachers = await _context.Teacher.ToListAsync();
             return View(teacherSearchIndexVM);
         }
@@ -151,6 +151,7 @@ namespace CenterAppWeb.Controllers
             return Json(teacherMatrial);
             //return RedirectToAction(nameof(Index));
         }
+        
         // GET: Teachers/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -247,7 +248,7 @@ namespace CenterAppWeb.Controllers
         }
         public JsonResult GetMatrialData(int LevelId)
         {
-            var data = _context.LevelMatrial.Include(x => x.Matrial).Where(x => x.Level_Id == LevelId).Select(x => new {x.Matrial_Id,x.Matrial.Matrial_Name }).ToList();
+            var data = _context.LevelMatrial.Include(x => x.Matrial).Where(x => x.Level_Id == LevelId).Select(x => new { x.Matrial_Id, x.Matrial.Matrial_Name }).ToList();
             return Json(data);
         }
     }

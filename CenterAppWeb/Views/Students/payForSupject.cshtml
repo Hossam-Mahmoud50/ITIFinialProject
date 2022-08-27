@@ -13,10 +13,10 @@
             </select>
         </div>
         <div class="form-group">
-            <span>Material</span>
-            <select asp-for="MateriaId"
+            <span>Groups</span>
+            <select asp-for="GroupId"
                     class="form-control"
-                    asp-items="@(new SelectList(ViewBag.Materials, "Matrial_Id", "Matrial_Name"))">
+                    asp-items="@(new SelectList(ViewBag.Groups, "GroupId", "GroupName"))">
             </select>
         </div>
         <div class="form-group">

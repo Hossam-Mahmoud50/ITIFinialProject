@@ -1,9 +1,5 @@
 ﻿@model CenterApp.Core.Models.Student
 
-{
-    ViewData["Title"] = "Details";
-}
-
             <!-- Sidebar Area End Here -->
             <div class="dashboard-content-one">
                 <!-- Breadcubs Area Start Here -->
@@ -11,7 +7,7 @@
                     <h3>Students</h3>
                     <ul>
                         <li>
-                            <a href="index.html">Home</a>
+                            <a asp-action="Index" asp-controller="Students">Home</a>
                         </li>
                         <li>Student Details</li>
                     </ul>
@@ -38,7 +34,7 @@
                         </div>
                         <div class="single-info-details">
                             <div class="item-img">
-                                <img src="~/images/@(Model.Student_Image is not null?Model.Student_Image:"student1.jpg")" alt="student">
+                                <img src="~/images/@Model.Student_Image" alt="student">
                             </div>
                             <div class="item-content">
                                 <div class="header-inline item-header">
@@ -96,6 +92,23 @@
                                 </div>
                             </div>
                         </div>
+                    <br />
+                    <br />
+                <div class="row">
+                    <div class="col">
+                        <a asp-action="payForSupject" asp-controller="Students" asp-route-id="@Model.Student_Id" class="btn btn-lg btn-outline-primary">Pay</a>
+                    </div>
+                    <div class="col">
+                        <a asp-action="studentAttend" asp-controller="Students" asp-route-id="@Model.Student_Id" class="btn btn-lg btn-outline-warning"> add Attend</a>
+                    </div>
+                    <div class="col">
+                        <a asp-action="GetAttendDetails" asp-controller="Students" asp-route-id="@Model.Student_Id" class="btn btn-lg btn-outline-success">Show Attend</a>
+                    </div>
+                    <div class="col">
+                        <a asp-action="GetPaymentDetails" asp-controller="Students" asp-route-id="@Model.Student_Id" class="btn btn-lg btn-outline-danger">Show Payment</a>
+                    </div>
+
+                </div>
                     </div>
                 </div>
    

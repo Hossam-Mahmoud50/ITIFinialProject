@@ -93,7 +93,7 @@ namespace CenterAppWeb.Controllers
                 if (studentstagematerialvm.File != null)
                 {
                     string images = Path.Combine(_hostEnvironment.WebRootPath, "images");
-                    fileimage = Guid.NewGuid() .ToString() + "_"+studentstagematerialvm.File.FileName;
+                    fileimage = Guid.NewGuid().ToString() + "_" + studentstagematerialvm.File.FileName;
                     string fullpathimage = Path.Combine(images, fileimage);
                     using (var stream = new FileStream(fullpathimage, FileMode.Create))
                     {
@@ -178,29 +178,30 @@ namespace CenterAppWeb.Controllers
         }
 
         // GET: Students/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null || _context.Students == null)
-            {
-                return NotFound();
-            }
+        //public async Task<IActionResult> Delete(int? id)
+        //{
+        //    if (id == null || _context.Students == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            var student = await _context.Students
-                .Include(s => s.Stage)
-                .FirstOrDefaultAsync(m => m.Student_Id == id);
-            if (student == null)
-            {
-                return NotFound();
-            }
+        //    var student = await _context.Students
+        //        .Include(s => s.Stage)
+        //        .FirstOrDefaultAsync(m => m.Student_Id == id);
+        //    if (student == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            return View(student);
-        }
+        //    return View(student);
+        //}
 
         // POST: Students/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+
             if (_context.Students == null)
             {
                 return Problem("Entity set 'CenterDBContext.Students'  is null.");
@@ -208,6 +209,12 @@ namespace CenterAppWeb.Controllers
             var student = await _context.Students.FindAsync(id);
             if (student != null)
             {
+                var StudentA = await _context.StudentAttends.Where(x => x.Student_Id == student.Student_Id).ToListAsync();
+                if (StudentA != null && StudentA.Count > 0)
+                {
+                    foreach (var item in StudentA)
+                        _context.StudentAttends.Remove(item);
+                }
                 _context.Students.Remove(student);
             }
 
@@ -223,22 +230,31 @@ namespace CenterAppWeb.Controllers
         [HttpGet]
         public IActionResult payForSupject(int id)
         {
-            var materials = _context.Matrials.ToList();
-            var students = _context.Students.ToList();
-            ViewBag.Materials = materials;
+            var groups = _context.StudentGroup.Include(x => x.Group).Where(x => x.Student_Id == id).Select(x => new
+            {
+                GroupName = x.Group.Group_Name,
+                GroupId = x.Group_Id
+            }).ToList(); 
+            var students = _context.Students.Where(x => x.Student_Id == id).ToList();
+            ViewBag.Groups = groups;
             ViewBag.Students = students;
             return View();
         }
         [HttpPost]
         public IActionResult payForSupject(PaymentVM model)
         {
-            var materials = _context.Matrials.ToList();
-            var students = _context.Students.ToList();
-            ViewBag.Materials = materials;
+
+            var groups = _context.StudentGroup.Include(x => x.Group).Where(x => x.Student_Id == model.StudentId).Select(x => new
+            {
+                GroupName = x.Group.Group_Name,
+                GroupId = x.Group_Id
+            }).ToList();
+            var students = _context.Students.Where(x => x.Student_Id == model.StudentId).ToList();
+            ViewBag.Groups = groups;
             ViewBag.Students = students;
             _context.StudentPayments.Add(new StudentPayments
             {
-                Matrial_Id = model.MateriaId,
+                Group_Id = model.GroupId,
                 Price = model.Price,
                 Student_Id = model.StudentId,
                 IsPaid = model.IsPaid,
@@ -252,11 +268,11 @@ namespace CenterAppWeb.Controllers
         {
             ViewBag.Materials = _context.Matrials.ToList();
             List<PaymentStatus> statusModels = _context.StudentPayments
-                .Where(s => s.Student_Id == studentId).Include(d => d.Matrial).Select(c => new PaymentStatus
+                .Where(s => s.Student_Id == studentId).Include(d => d.Group).Select(c => new PaymentStatus
                 {
                     Id = c.Id,
                     IsPaid = c.IsPaid,
-                    MaterialName = c.Matrial.Matrial_Name,
+                    GroupName = c.Group.Group_Name,
                     Price = c.Price,
                     Date = c.Date.ToString("MM")
                 }).ToList();
@@ -278,26 +294,33 @@ namespace CenterAppWeb.Controllers
         [HttpGet]
         public IActionResult EditPayment(int id)
         {
-            var materials = _context.Matrials.ToList();
-            var students = _context.Students.ToList();
-            ViewBag.Materials = materials;
-            ViewBag.Students = students;
+            var groups = _context.StudentGroup.Include(x => x.Group).Where(x => x.Student_Id == id).Select(x => new
+            {
+                GroupName = x.Group.Group_Name,
+                GroupId = x.Group_Id
+            }).ToList();
+            ViewBag.Groups = groups;
             StudentPayments studentP = _context.StudentPayments.FirstOrDefault(d => d.Id == id);
             return View(studentP);
 
         }
         [HttpPost]
-        public IActionResult EditPayment(StudentPayments payment)
+        public IActionResult EditPayment(int id, StudentPayments payment)
         {
-            var materials = _context.Matrials.ToList();
-            var students = _context.Students.ToList();
-            ViewBag.Materials = materials;
-            ViewBag.Students = students;
+            var groups = _context.StudentGroup.Include(x => x.Group).Where(x => x.Student_Id == id).Select(x => new
+            {
+                GroupName = x.Group.Group_Name,
+                GroupId = x.Group_Id
+            }).ToList();
+            ViewBag.Groups = groups;
+
+
             StudentPayments studentP = _context.StudentPayments.FirstOrDefault(d => d.Id == payment.Id);
-            studentP.Matrial_Id = payment.Matrial_Id;
+            studentP.Group_Id = payment.Group_Id;
             studentP.Price = payment.Price;
             studentP.IsPaid = payment.IsPaid;
             studentP.Date = payment.Date;
+            studentP.Student_Id = id;
 
             _context.SaveChanges();
             return RedirectToAction(nameof(GetPaymentDetails), new { studentId = studentP.Student_Id });
@@ -305,7 +328,83 @@ namespace CenterAppWeb.Controllers
         }
 
 
+        //--------------------------Attendance-------------------------
+
+        [HttpGet]
+        public IActionResult studentAttend(int id)
+        {
+            AttendVM attend = new AttendVM();
+            attend.oneStudent = _context.Students.FirstOrDefault(x => x.Student_Id == id);
+            ViewBag.Stages = _context.Stages.ToList();
 
 
+            return View(attend);
+        }
+        [HttpPost]
+        public IActionResult studentAttend(int id, StudentAttend model)
+        {
+            var stages = _context.Stages.ToList();
+            var students = _context.Students.ToList();
+            ViewBag.Stages = stages;
+            ViewBag.Students = students;
+            _context.StudentAttends.Add(new StudentAttend
+            {
+                Stage_Id = model.Stage_Id,
+                Student_Id = id,
+                IsAttend = model.IsAttend,
+                AttendDate = model.AttendDate
+            });
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+
+        public IActionResult GetAttendDetails(int Id)
+        {
+            ViewBag.Stages = _context.Stages.ToList();
+            var attends = _context.StudentAttends
+                .Where(s => s.Student_Id == Id).Include(d => d.Stage).Include(x => x.Student).ToList();
+            return View(attends);
+        }
+
+
+        public IActionResult DeleteAttend(int id)
+        {
+            int std_Id = 0;
+            var attend = _context.StudentAttends.FirstOrDefault(d => d.Attend_Id == id);
+            std_Id = attend.Attend_Id;
+            _context.StudentAttends.Remove(attend);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(GetAttendDetails), new { studentId = std_Id });
+        }
+
+        [HttpGet]
+        public IActionResult EditAttend(int id)
+        {
+            var stages = _context.Stages.ToList();
+            var students = _context.Students.ToList();
+            ViewBag.Stages = stages;
+            ViewBag.Students = students;
+            StudentAttend studentAttend = _context.StudentAttends.FirstOrDefault(d => d.Attend_Id == id);
+            return View(studentAttend);
+
+        }
+        [HttpPost]
+        public IActionResult EditAttend(StudentAttend attend)
+        {
+            var stages = _context.Stages.ToList();
+            var students = _context.Students.ToList();
+            ViewBag.Stages = stages;
+            ViewBag.Students = students;
+            StudentAttend studentAttend = _context.StudentAttends.FirstOrDefault(d => d.Attend_Id == attend.Attend_Id);
+            studentAttend.Stage_Id = attend.Stage_Id;
+            studentAttend.IsAttend = attend.IsAttend;
+            studentAttend.AttendDate = attend.AttendDate;
+
+            _context.SaveChanges();
+            return RedirectToAction(nameof(GetAttendDetails), new { student_Id = studentAttend.Student_Id });
+
+        }
     }
+
 }
+

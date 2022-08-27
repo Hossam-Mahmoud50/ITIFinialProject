@@ -17,6 +17,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\Stuff\Create.cshtml" />
+    <None Include="Views\Stuff\Delete.cshtml" />
+    <None Include="Views\Stuff\Details.cshtml" />
+    <None Include="Views\Stuff\Edit.cshtml" />
+    <None Include="Views\Stuff\Index.cshtml" />
     <None Include="Views\TeacherMatrials\Create.cshtml" />
     <None Include="Views\TeacherMatrials\Delete.cshtml" />
     <None Include="Views\TeacherMatrials\Details.cshtml" />
@@ -48,8 +53,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.7">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.8">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>

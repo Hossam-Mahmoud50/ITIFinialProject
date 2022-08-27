@@ -1,0 +1,77 @@
+﻿@model CenterApp.Core.Models.Stuff
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<div class="dashboard-content-one">
+                <!-- Breadcubs Area Start Here -->
+                <div class="breadcrumbs-area">
+                    <h3>Stuff</h3>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>Teacher Details</li>
+                    </ul>
+                </div>
+                <!-- Breadcubs Area End Here -->
+                <!-- Student Table Area Start Here -->
+                <div class="card height-auto">
+                    <div class="card-body">
+                        <div class="heading-layout1">
+                            <div class="item-title">
+                                <h3>About Me</h3>
+                            </div>
+                           
+                        </div>
+                        <div class="single-info-details">
+                            <div class="item-img">
+                                <img src="~/images/@Model.Stuff_Image" alt="teacher">
+                            </div>
+                            <div class="item-content">
+                                <div class="header-inline item-header">
+                                    <h3 class="text-dark-medium font-medium">@Model.Stuff_Name</h3>
+                                </div>
+                                <p>Aliquam erat volutpat. Curabiene natis massa sedde lacu stiquen sodale 
+                                word moun taiery.Aliquam erat volutpaturabiene natis massa sedde  sodale 
+                                word moun taiery.</p>
+                                <div class="info-table table-responsive">
+                                    <table class="table text-nowrap">
+                                        <tbody>
+                                            <tr>
+                                                <td>Name:</td>
+                                                <td class="font-medium text-dark-medium">@Model.Stuff_Name</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Specilist:</td>
+                                                <td class="font-medium text-dark-medium">@Model.Stuff_Specilist</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Age:</td>
+                                                <td class="font-medium text-dark-medium">@Model.Stuff_BirthOfDate</td> @* calc age of teacher*@
+                                            </tr>
+                                            <tr>
+                                                <td>E-mail:</td>
+                                                <td class="font-medium text-dark-medium">@Model.Stuff_Email</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Phone:</td>
+                                                <td class="font-medium text-dark-medium">@Model.Stuff_Phone</td>
+                                            </tr>
+                                           
+                                           
+                                        </tbody>
+                                    </table>
+                                    <div>
+    <a asp-action="Edit" asp-route-id="@Model?.Stuff_Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+            </div>

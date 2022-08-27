@@ -70,7 +70,17 @@ public class CenterDBContext : DbContext
             .HasForeignKey(x => x.Stage_id);
         modelBuilder.Entity<StudentPayments>().HasKey(d => d.Id);
         modelBuilder.Entity<StudentPayments>().HasOne(s => s.Student).WithMany(d => d.StudentPayments).HasForeignKey(d => d.Student_Id);
-        modelBuilder.Entity<StudentPayments>().HasOne(s => s.Matrial).WithMany(d => d.StudentPayments).HasForeignKey(d => d.Matrial_Id);
+        modelBuilder.Entity<StudentPayments>().HasOne(s => s.Group).WithMany(d => d.StudentPayments).HasForeignKey(d => d.Group_Id);
+        modelBuilder.Entity<Stuff>().HasKey(x => x.Stuff_Id);
+        modelBuilder.Entity<Stuff>().Property(x => x.Stuff_Email).IsRequired();
+        modelBuilder.Entity<Stuff>().Property(x => x.Stuff_Name).IsRequired();
+        modelBuilder.Entity<Stuff>().Property(x => x.Stuff_Image).IsRequired();
+        modelBuilder.Entity<Stuff>().Property(x => x.Stuff_Phone).IsRequired();
+        modelBuilder.Entity<Stuff>().Property(x => x.Stuff_BirthOfDate).IsRequired();
+        modelBuilder.Entity<StudentAttend>().HasKey(x => x.Attend_Id);
+        modelBuilder.Entity<StudentAttend>().Property(x => x.AttendDate).IsRequired().HasMaxLength(40);
+        modelBuilder.Entity<StudentAttend>().HasOne(s => s.Student).WithMany(d => d.StudentAttends).HasForeignKey(d => d.Student_Id);
+        modelBuilder.Entity<StudentAttend>().HasOne(s => s.Stage).WithMany(d => d.StudentAttends).HasForeignKey(d => d.Stage_Id);
 
     }
 
@@ -84,4 +94,7 @@ public class CenterDBContext : DbContext
     public DbSet<Student> Students { get; set; }
     public DbSet<StudentGroup> StudentGroup { get; set; }
     public DbSet<StudentPayments> StudentPayments { get; set; }
+    public DbSet<Stuff> Stuff { get; set; }
+    public DbSet<StudentAttend> StudentAttends { get; set; }
+
 }

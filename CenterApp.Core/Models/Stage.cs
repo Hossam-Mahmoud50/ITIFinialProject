@@ -11,6 +11,6 @@ public class Stage
     public virtual Level? Level { get; set; }
     public virtual IList<TeacherMatrial>? TeacherMatrial { get; set; }
     public virtual ICollection<Student>? Students { get; set; }
-
+    public virtual ICollection<StudentAttend>? StudentAttends { get; set; }
 
 }

@@ -1,0 +1,59 @@
+﻿@using CenterAppWeb.ViewModel;
+@model IEnumerable<StudentAttend>;
+<div class="col-12">
+    <div class="card">
+        <div class="card-body">
+            <div class="heading-layout1">
+                <div class="item-title">
+                    <h3>Attendence Sheet Of Class </h3>
+                </div>
+                <div class="dropdown">
+                    <a class="dropdown-toggle" href="#" role="button"
+                       data-toggle="dropdown" aria-expanded="false">...</a>
+
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                    </div>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table class="table bs-table table-striped table-bordered text-nowrap text-center">
+                    <thead>
+                        <tr>
+                            <th >@Html.DisplayName("Students")</th>
+                            
+                            <th >@Html.DisplayName("attend")</th>
+                            
+                            <th >@Html.DisplayName("Date")</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+
+                                <td>@item.Student.Student_Name</td>
+                                @if (item.IsAttend)
+                                {
+                                    <td><i class="fa fa-solid fa-check" style="color:green;">/</i></td>
+                                }
+                                else
+                                {
+                                    <td><span style="color:red;">X</span></td>
+                                }
+                                 <td>@item.AttendDate.ToShortDateString()</td>
+
+                                
+                            </tr>
+
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -10,6 +10,8 @@ public class Group
     public int Teacher_Id { get; set; }
     public virtual Teacher Teacher { get; set; }
     public ICollection<StudentGroup> StudentGroup { get; set; }
+    public ICollection<StudentPayments>? StudentPayments { get; set; }
+
 
 
 }

@@ -1,0 +1,120 @@
+﻿@model TeacherStageMatrialVM
+
+@{
+    ViewData["Title"] = "TeacherReport";
+}
+
+
+
+<div class="form-group">
+
+    <div class="form-control">
+        <select id="Level_Id" class="form-control" asp-items="@ViewBag.Level_Id">
+        </select>
+    </div>
+
+    <div class="form-control">
+        <select id="Stage_Id" class="form-control">
+        </select>
+    </div>
+
+    <div class="form-control">
+        <select id="Groups_Id" class="form-control">
+        </select>
+    </div>
+    <div class="container">
+
+        <table class="table text-center table-bordered">
+            <thead>
+                
+            </thead>
+            <tbody id="tbl">
+                
+            </tbody>
+        </table>
+    </div>
+</div>
+@section scripts{
+    <script>
+
+
+        $(function() {
+            $("#Level_Id").change(function() {
+                $.ajax({
+                    url: '@Url.Action("GetStagesData", "Teachers")',
+                    type: "GET",
+                    data: {
+                        LevelId: $(this).val()
+                    },
+                    success: function(data) {
+                        $('#Stage_Id').find('option').remove();
+                        $('#Stage_Id').append('<option value="0">"Select Stage"</option>');
+                        $(data).each(function(index, item) {
+                            $('#Stage_Id').append(`<option value="${item.stage_Id}">"${item.stage_Name}"</option>`);
+                        });
+                    },
+                    error: function(err) {
+                        console.log(err);
+                    }
+                });
+                $.ajax({
+                    url: '@Url.Action("GetGroups", "Teachers")',
+                    type: "GET",
+                    data: {
+                        teacherId: @Json.Serialize(ViewBag.TeacherId)
+                                                            },
+                    success: function(data) {
+                        console.log(data);
+                        $('#Groups_Id').find('option').remove();
+                        $('#Groups_Id').append('<option value="0">"Select Group"</option>');
+                        $(data).each(function(index, item) {
+                            $('#Groups_Id').append(`<option value="${item.group_Id}">"${item.group_Name}"</option>`);
+                        });
+                    },
+                    error: function(err) {
+                        console.log(err);
+                    }
+                });
+            });
+
+            $("#Groups_Id").change(function() {
+                $.ajax({
+                    url: '@Url.Action("GetGroupStudents", "Teachers")',
+                    type: "GET",
+                    data: {
+                        id: $(this).val()
+                    },
+                    success: function(data) {
+                        $('#tbl').children().remove();
+                        $(data).each(function(index, item) {
+
+                            console.log(item);
+                            $("#tbl").append(`<tr><td style='font-size:20px; color:#FF1E00; font-weight: bold;' colspan='3'>${item.student_Name}</td></tr>`);
+                             $('#tbl').append(`<tr><td style='font-size:20px; color:#2B4865; font-weight: bold;'>Material Name</td><td <td style='font-size:20px; color:#2B4865; font-weight: bold;'>Price</td><td <td style='font-size:20px; color:#2B4865;font-weight: bold;'>Status</td></tr>`);
+                            $(item.studentPayments).each(function(i, e) {
+                                console.log(e);
+                                
+                                $('#tbl').append('<tr>');
+                                $("#tbl").append(`<td>${e.matrial_Name}</td>`);
+                                $("#tbl").append(`<td>${e.price}</td>`);
+                                $("#tbl").append(`<td>${e.isPaid}</td>`);
+                                $('#tbl').append('</tr>');
+                               
+                               
+                            });
+                             
+                        });
+                    },
+                    error: function(err) {
+                        console.log(err);
+                    }
+
+                });
+
+            });
+        });
+
+    </script>
+ }
+
+

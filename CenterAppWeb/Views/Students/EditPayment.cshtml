@@ -8,9 +8,9 @@
         <input hidden asp-for="Id"/>
         <div class="form-group">
             <span>Material</span>
-            <select asp-for="Matrial_Id"
+            <select asp-for="Group_Id"
                     class="form-control"
-                    asp-items="@(new SelectList(ViewBag.Materials, "Matrial_Id", "Matrial_Name",Model.Matrial_Id))">
+                    asp-items="@(new SelectList(ViewBag.Groups, "GroupId", "GroupName",Model.Group_Id))">
             </select>
         </div>
         <div class="form-group">

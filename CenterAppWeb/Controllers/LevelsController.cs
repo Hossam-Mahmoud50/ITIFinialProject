@@ -23,7 +23,7 @@ namespace CenterAppWeb.Controllers
         // GET: Levels
         public async Task<IActionResult> Index()
         {
-            return _context.Levels != null ?
+            return  _context.Levels != null ?
                         View(await _context.Levels.ToListAsync()) :
                         Problem("Entity set 'CenterDBContext.Levels'  is null.");
         }
