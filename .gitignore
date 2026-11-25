@@ -1,0 +1,10 @@
+# Visual Studio and JetBrains local files
+.vs/
+.idea/
+*.user
+*.suo
+*.DotSettings.user
+
+# Build output
+[Bb]in/
+[Oo]bj/
